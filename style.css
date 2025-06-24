@@ -71,4 +71,45 @@ textarea:focus {
   height:100vh;
   background-color:lightgray
 }
+#submitButton {
+        width: 100px;
+        height: 35px;
+        font-size: 20px;
+        background-color: lightgreen
+    }
+
+    #submitButton:active {
+        background-color: greenyellow;
+        border-width: 1px;
+    }
+
+    #formContent {
+
+        width: 70vw;
+        height: 300px;
+        resize: none;
+        font-size: 25px;
+        border-width: 2px;
+        border-radius: 0px;
+        border-color: blue;
+        "
+
+    }
+
+    #nameInput {
+        border-width: 2px;
+        border-radius: 0px;
+        border-color: blue;
+        width: 220px;
+        height: 30px;
+        font-family: arial;
+        font-size: 25px;
+    }
+
+    #status {
+        margin-left: 20px;
+        color: blue;
+        font-size: 20px;
+
+    }
 
