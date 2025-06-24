@@ -19,7 +19,7 @@ const app = firebase.initializeApp(firebaseConfig);
 var database = firebase.database()
 
 document.getElementById("submitButton").addEventListener("click", function () {
-    console.log("subbmit clicked");
+    console.log("submit clicked");
     if (document.getElementById("nameInput").value == "" || document.getElementById("formContent").value == "") {
         document.getElementById("status").innerText = "Please fill in all the things before submit";
         setTimeout(function () {
@@ -33,8 +33,8 @@ document.getElementById("submitButton").addEventListener("click", function () {
         }
         database.ref("UserFeedbacks").push(data).then(function () {
             document.getElementById("status").innerText = "Submitted";
-            localStorage.setItem("input", "");
-            localStorage.setItem("name", "");
+            localStorage.removeItem("input");
+            localStorage.removeItem("name");
             document.getElementById("nameInput").value = ""
             document.getElementById("formContent").value = ""
             setTimeout(function () {
