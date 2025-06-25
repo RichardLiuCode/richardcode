@@ -25,15 +25,15 @@ function getNumber(id) {
 function setNumber(id, Number) {
   if (!isNaN(Number)) {
     if (document.getElementById(id).value == undefined) {
-      document.getElementByID(id).innerHTML = Number;
+      document.getElementById(id).innerHTML = Number;
     } else {
-      document.getElementByID(id).value = Number;
+      document.getElementById(id).value = Number;
     }
   } else {
     if (document.getElementById(id).value == undefined) {
-      document.getElementByID(id).innerHTML = NaN;
+      document.getElementById(id).innerHTML = NaN;
     } else {
-      document.getElementByID(id).value = NaN;
+      document.getElementById(id).value = NaN;
     }
   }
 }
