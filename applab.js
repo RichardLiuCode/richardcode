@@ -72,3 +72,8 @@ function open(URLForOpen) {
 function RandomNumber(min, max) {
   return (Math.random() * (max - min) + min).toFixed(0);
 }
+
+//list
+function appendItems(list,item){
+  list.push(item)
+}
