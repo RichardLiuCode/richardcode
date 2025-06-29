@@ -49,4 +49,4 @@ Vanilla JavaScript (Native JavaScript)
 
 Are you trying to move from App Lab to real-world JavaScript development?
 
-( Source: https://chatgpt.com/share/68145ff9-54d0-8009-9b3f-7f1c939ad1b4 )
+## Source: https://chatgpt.com/share/68145ff9-54d0-8009-9b3f-7f1c939ad1b4 
