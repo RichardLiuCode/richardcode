@@ -139,12 +139,14 @@
     </div>
     <br />
     <br />
-    <div id="turnHint" style="position:fixed;top:0;left:0;width:100vw;height:100vh;background-color:lightyellow;color:gray;font-family:arial;" >Please Turn your phone horizontally to have better view!</div>
+    <div id="turnHint" style="position:fixed;top:0;left:0;width:100vw;height:100vh;background-color:lightyellow;color:gray;font-family:arial;text-align:center;justify-content-center;align-items:center;" >
+      <h1>Please Turn your phone horizontally to have better view!</h1>
+    </div>
     <script>
       window.onload = function () {
     if (navigator.userAgent.includes("iPhone") || navigator.userAgent.includes("Android")) {
         if (window.innerWidth < window.innerHeight) {
-            document.getElementById("turnHint").style.display="revert";
+            document.getElementById("turnHint").style.display="flex";
         } else {
             document.getElementById("turnHint").style.display="none";
         }
@@ -153,7 +155,7 @@
 window.addEventListener("resize", function () {
     if (navigator.userAgent.includes("iPhone") || navigator.userAgent.includes("Android")) {
         if (window.innerWidth < window.innerHeight) {
-            document.getElementById("turnHint").style.display="revert";
+            document.getElementById("turnHint").style.display="flex";
         } else {
             document.getElementById("turnHint").style.display="none";
         }
