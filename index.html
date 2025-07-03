@@ -143,17 +143,20 @@
       <h1>Please Turn your phone horizontally to have better view!</h1>
     </div>
     <script>
+      var UserAgentString = navigator.userAgent
       window.onload = function () {
-    if (navigator.userAgent.includes("iPhone") || navigator.userAgent.includes("Android")) {
-        if (window.innerWidth < window.innerHeight) {
-            document.getElementById("turnHint").style.display="flex";
-        } else {
-            document.getElementById("turnHint").style.display="none";
+        console.log(UserAgentString)
+        console.log("width: "+window.innerWidth+" height: "+window.innerHeight)
+        if (UserAgentString.includes("iPhone") || UserAgentString.includes("Android")) {
+           if (window.innerWidth < window.innerHeight) {
+              document.getElementById("turnHint").style.display="flex";
+           } else {
+              document.getElementById("turnHint").style.display="none";
+           }
         }
-    }
-}
+      }
 window.addEventListener("resize", function () {
-    if (navigator.userAgent.includes("iPhone") || navigator.userAgent.includes("Android")) {
+    if (UserAgentString.includes("iPhone") || UserAgentString.includes("Android")) {
         if (window.innerWidth < window.innerHeight) {
             document.getElementById("turnHint").style.display="flex";
         } else {
