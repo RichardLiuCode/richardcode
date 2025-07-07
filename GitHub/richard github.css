@@ -16,8 +16,9 @@ body {
 .box {
     margin: 0 auto;
     padding: 20px;
-    width: 1000px;
+    width: 1020px;
     background-color: skyblue;
+    border-radius: 10px;
 }
 
 .separate {
