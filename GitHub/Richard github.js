@@ -80,7 +80,7 @@ window.onload = function () {
 
 
 
-
+  window.scrollTo(0, 0);
 }
 
 function formatDate(input) {
@@ -106,11 +106,6 @@ document.getElementById("searchBing").addEventListener("click", function () {
     document.getElementById("searchEngineResult").src = "https://bing.com/search?q=GitHub:RichardLiuCode"
 });
 
-
-
-window.onload = function() {
-  window.scrollTo(0, 0);
-};
 
 
 
