@@ -76,7 +76,6 @@ window.onload = function () {
             window.scrollTo(0, 0);
         });  
     //load the iframe slowly
-     document.getElementById("GitHubSearchEngineDisplay").style.display="none";
      setTimeout(function () {
         document.getElementById("GitHubSearchEngineDisplay").src="https://studio.code.org/projects/applab/94GiglcHwB4ebeWxzz5BDQq9CGZ59TsmGKW9uWbFUC8/embed";
         setTimeout(function () {
