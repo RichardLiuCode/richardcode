@@ -74,7 +74,15 @@ window.onload = function () {
             ProjectsDisplay.appendChild(ProjectsListContainer)
             console.log(projectsList);
             window.scrollTo(0, 0);
-        });   
+        });  
+    //load the iframe slowly
+     document.getElementById("GitHubSearchEngineDisplay").style.display="none";
+     setTimeout(function () {
+        document.getElementById("GitHubSearchEngineDisplay").src="https://studio.code.org/projects/applab/94GiglcHwB4ebeWxzz5BDQq9CGZ59TsmGKW9uWbFUC8/embed";
+        setTimeout(function () {
+            document.getElementById("GitHubSearchEngineDisplay").style.display = "flex";
+        },1500)
+     },5000)
 }
 
 function formatDate(input) {
@@ -100,16 +108,6 @@ document.getElementById("searchBing").addEventListener("click", function () {
     document.getElementById("searchEngineResult").src = "https://bing.com/search?q=GitHub:RichardLiuCode"
 });
 
-
-window.onload=function(){
-  document.getElementById("GitHubSearchEngineDisplay").style.display="none";
-  setTimeout(function () {
-        document.getElementById("GitHubSearchEngineDisplay").src="https://studio.code.org/projects/applab/94GiglcHwB4ebeWxzz5BDQq9CGZ59TsmGKW9uWbFUC8/embed";
-        setTimeout(function () {
-            document.getElementById("GitHubSearchEngineDisplay").style.display = "flex";
-        },1500)
-  },5000)
-}
 
 
 
