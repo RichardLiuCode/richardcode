@@ -110,6 +110,8 @@ textarea:focus {
         margin-left: 20px;
         color: blue;
         font-size: 20px;
-
+    }
+    .HiddenURLButton {
+      display:none;
     }
 
