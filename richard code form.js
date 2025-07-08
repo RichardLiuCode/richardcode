@@ -34,7 +34,7 @@ document.getElementById("submitButton").addEventListener("click", function () {
         database.ref("UserFeedbacks").push(data).then(function () {
             document.getElementById("status").innerText = "Submitted";
             localStorage.removeItem("input");
-            localStorage.removeItem("name");
+            localStorage.removeItem("feedbackNameInTheMainWebsite");
             document.getElementById("nameInput").value = ""
             document.getElementById("formContent").value = ""
             setTimeout(function () {
@@ -46,7 +46,7 @@ document.getElementById("submitButton").addEventListener("click", function () {
 
 window.onload = function () {
     document.getElementById("formContent").value = localStorage.getItem("input");
-    document.getElementById("nameInput").value = localStorage.getItem("name");
+    document.getElementById("nameInput").value = localStorage.getItem("feedbackNameInTheMainWebsite");
 }
 document.getElementById("formContent").addEventListener("input", function () {
     localStorage.setItem("input", document.getElementById("formContent").value);
@@ -54,6 +54,6 @@ document.getElementById("formContent").addEventListener("input", function () {
 });
 //
 document.getElementById("nameInput").addEventListener("input", function () {
-    localStorage.setItem("name", document.getElementById("nameInput").value);
+    localStorage.setItem("feedbackNameInTheMainWebsite", document.getElementById("nameInput").value);
     console.log("saved name");
 });
