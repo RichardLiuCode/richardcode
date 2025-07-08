@@ -74,7 +74,7 @@ window.onload = function () {
             ProjectsDisplay.appendChild(ProjectsListContainer)
             console.log(projectsList);
             window.scrollTo(0, 0);
-        })
+        });   
 }
 
 function formatDate(input) {
@@ -101,7 +101,14 @@ document.getElementById("searchBing").addEventListener("click", function () {
 });
 
 
-
+window.onload=function(){
+  setTimeout(function () {
+        document.getELementById("GitHubSearchEngineDisplay").src=""
+        setTimeout(function () {
+            document.getElementById("GitHubSearchEngineDisplay").style.display = "flex";
+        },1500)
+  },5000)
+}
 
 
 
