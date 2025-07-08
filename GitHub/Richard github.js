@@ -73,12 +73,13 @@ window.onload = function () {
             }
             ProjectsDisplay.appendChild(ProjectsListContainer)
             console.log(projectsList);
-            window.scrollTo(0, 0);
+            
         });  
     //load the iframe slowly
      setTimeout(function () {
             document.getElementById("GitHubSearchEngineDisplay").style.display = "flex";
-     },5000)
+            window.scrollTo(0, 0);
+     },1000)
 }
 
 function formatDate(input) {
