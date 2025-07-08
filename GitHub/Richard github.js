@@ -76,10 +76,6 @@ window.onload = function () {
             
         });  
     //load the iframe slowly
-     setTimeout(function () {
-            document.getElementById("GitHubSearchEngineDisplay").style.display = "flex";
-            window.scrollTo(0, 0);
-     },1000)
 }
 
 function formatDate(input) {
