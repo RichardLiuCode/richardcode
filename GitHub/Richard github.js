@@ -111,7 +111,8 @@ document.getElementById("searchBing").addEventListener("click", function () {
 
 
 document.getElementById("CodeOrgGithubContainer").addEventListener("click",function(){
-   document.getElementById("CodeOrgGithubContainer").innerHTML=""
+   document.getElementById("CodeOrgGithubContainer").innerHTML=
+    "<iframe sandbox='allow-scripts allow-same-origin' width='450' height='650' style='border:0px; display:flex;' src='https://studio.code.org/projects/applab/94GiglcHwB4ebeWxzz5BDQq9CGZ59TsmGKW9uWbFUC8/embed'></iframe>"
 })
 
 
