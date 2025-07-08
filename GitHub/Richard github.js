@@ -77,7 +77,7 @@ window.onload = function () {
         });  
     //load the iframe slowly
      setTimeout(function () {
-        document.getElementById("GitHubSearchEngineDisplay").src="https://studio.code.org/projects/applab/94GiglcHwB4ebeWxzz5BDQq9CGZ59TsmGKW9uWbFUC8/embed";
+        document.getElementById("GitHubSearchEngineDisplay").src="";
         setTimeout(function () {
             document.getElementById("GitHubSearchEngineDisplay").style.display = "flex";
         },1500)
