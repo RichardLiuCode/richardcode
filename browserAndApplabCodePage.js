@@ -1,5 +1,5 @@
 document.getElementById("copyScriptURL").addEventListener("click", function () {
-  var CopyScriptUrl = "https://richardcode.glitch.me/applab.js";
+  var CopyScriptUrl = "https://RichardLiuCode.github.io/richardcode/applab.js";
   navigator.clipboard.writeText(CopyScriptUrl);
 
   document.getElementById("scriptURLDisplay").select();
@@ -7,7 +7,7 @@ document.getElementById("copyScriptURL").addEventListener("click", function () {
 });
 document.getElementById("button5").addEventListener("click", function () {
   var CopyScriptUrl = "https://richardcode.glitch.me/applab.js";
-  navigator.clipboard.writeText("<script src='https://richardcode.glitch.me/applab.js'></script>");
+  navigator.clipboard.writeText("<script src='https://RichardLiuCode.github.io/richardcode/applab.js'></script>");
 
   document.getElementById("scriptTagDisplay").select();
  console.log(navigator.clipboard.readText)
