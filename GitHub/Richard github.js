@@ -90,13 +90,7 @@ function getViewURL(user, project) {
 
 document.getElementById("shareSite").addEventListener("click", function () {
     navigator.share({ url: window.location.href })
-})
-
-
-
-
-
-
+})；
 document.getElementById("searchBing").addEventListener("click", function () {
     document.getElementById("searchEngineResult").src = "https://bing.com/search?q=GitHub:RichardLiuCode";
 });
