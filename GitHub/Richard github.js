@@ -110,9 +110,8 @@ document.getElementById("searchBing").addEventListener("click", function () {
 
 
 
-document.getElementById("GitHubSearchEngineDisplay").addEventListener("click",function(){
-    document.getElementById("GitHubSearchEngineDisplay").setAttribute("sandbox","allow-scripts allow-same-origin")
+document.getElementById("CodeOrgGithubContainer").addEventListener("click",function(){
+   document.getElementById("CodeOrgGithubContainer").innerHTML=""
 })
-
 
 
