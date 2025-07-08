@@ -77,10 +77,7 @@ window.onload = function () {
         });  
     //load the iframe slowly
      setTimeout(function () {
-        document.getElementById("GitHubSearchEngineDisplay").src="";
-        setTimeout(function () {
             document.getElementById("GitHubSearchEngineDisplay").style.display = "flex";
-        },1500)
      },5000)
 }
 
