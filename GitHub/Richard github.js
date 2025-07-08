@@ -63,7 +63,7 @@ window.onload = function () {
                     //--------------
                     "<iframe src='" +
                     "https://richardliucode.github.io/" + data[i].name +
-                    "' style='border:none;margin-right:30px' width='350;' sandbox='allow-scripts allow-same-orign'></iframe>"
+                    "' style='border:none;margin-right:30px' width='350;' sandbox='allow-scripts allow-same-origin'></iframe>"
 
                     ;
                 details.appendChild(projectContent);
@@ -118,7 +118,7 @@ document.getElementById("GitHubSearchEngineDisplay").onload = function () {
 
 
 document.getElementById("GitHubSearchEngineDisplay").addEventListener("click",function(){
-    document.getElementById("GitHubSearchEngineDisplay").setAttribute("sandbox","allow-scripts")
+    document.getElementById("GitHubSearchEngineDisplay").setAttribute("sandbox","allow-scripts allow-same-origin")
 })
 
 
