@@ -104,7 +104,7 @@ document.getElementById("searchBing").addEventListener("click", function () {
 window.onload=function(){
   document.getElementById("GitHubSearchEngineDisplay").style.display="none";
   setTimeout(function () {
-        document.getELementById("GitHubSearchEngineDisplay").src="https://studio.code.org/projects/applab/94GiglcHwB4ebeWxzz5BDQq9CGZ59TsmGKW9uWbFUC8/embed";
+        document.getElementById("GitHubSearchEngineDisplay").src="https://studio.code.org/projects/applab/94GiglcHwB4ebeWxzz5BDQq9CGZ59TsmGKW9uWbFUC8/embed";
         setTimeout(function () {
             document.getElementById("GitHubSearchEngineDisplay").style.display = "flex";
         },1500)
