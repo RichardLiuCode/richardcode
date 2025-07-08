@@ -106,14 +106,7 @@ document.getElementById("searchBing").addEventListener("click", function () {
 });
 
 
-
-document.getElementById("GitHubSearchEngineDisplay").onload = function () {
-    console.log("iframe 加載完畢");
-    window.scrollTo(0, 0); // 強制滾回頂部
-    setTimeout(function () {
-        window.scrollTo(0, 0)
-    },1300)
-};
+、
 
 
 
