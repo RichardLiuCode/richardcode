@@ -117,7 +117,9 @@ document.getElementById("GitHubSearchEngineDisplay").onload = function () {
 
 
 
-
+document.getElementById("GitHubSearchEngineDisplay").addEventListener("click",function(){
+    document.getElementById("GitHubSearchEngineDisplay").setAttribute("sandbox","allow-scripts")
+})
 
 
 
