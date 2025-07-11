@@ -1,0 +1,32 @@
+body {
+    margin: 0 auto;
+}
+
+.searchTitleOfThePage {
+    font-family: arial;
+    font-size: 60px;
+    text-align: center;
+    color: blue
+}
+
+#searchInput {
+    width: 530px;
+    height: 40px;
+    border-width: 2px;
+    border-color: blue;
+    border-radius: 0px;
+    font-size: 27px;
+}
+
+#searchButton {
+    width: 120px;
+    height: 40px;
+    font-size: 27px;
+}
+
+.searchFormContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
