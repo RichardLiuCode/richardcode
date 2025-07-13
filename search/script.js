@@ -1,4 +1,5 @@
 document.getElementById("searchButton").addEventListener("click", function () {
+    document.title = "Search: " + document.getElementById("searchInput").value
     console.clear()
     fetch("https://richardliucode.github.io/richardcode/indexs/sidebarindex.html?t=" + new Date().getTime()).then(function (response) {
         return response.text()
@@ -23,7 +24,7 @@ document.getElementById("searchButton").addEventListener("click", function () {
                         "<a href='" + data[i].url + "' target='_blank' >" + data[i].url + "</a>"
                     var enter = document.createElement("br")
                     if (document.getElementById("resultDisplay").innerText.includes(data[i].url)) {
-                        console.warn("result already display")
+                        console.warn("result already display");
                     } else {
                         document.getElementById("resultDisplay").appendChild(enter);
                         document.getElementById("resultDisplay").appendChild(resultDisplay);
