@@ -24,7 +24,7 @@ function search() {
         data = content.split("<!--%JSON%--|");
         data = data[1];
         data = data.replace("|||-->", "");
-        data = JSON.parse(data)F
+        data = JSON.parse(data);
         console.log(data);
         for (var i = 0; i < data.length; i++) {
             var dataKeyWords = data[i].keywords
