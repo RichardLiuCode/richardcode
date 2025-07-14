@@ -4,10 +4,12 @@ document.getElementById("searchButton").addEventListener("click", function () {
     }
 })
 window.onload = function () {
+   if (window.location.search){
     var urlInput = new URLSearchParams(window.location.search);
     var urlQ = urlInput.get("q");
     document.getElementById("searchInput").value = urlQ;
-    search()
+    search();
+   }
 }
 function search() {
     document.title = "Search: " + document.getElementById("searchInput").value
