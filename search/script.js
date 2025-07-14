@@ -22,7 +22,7 @@ function search() {
         data = content.split("<!--%JSON%--|");
         data = data[1];
         data = data.replace("|||-->", "");
-        data = JSON.parse(data)
+        data = JSON.parse(data)F
         console.log(data);
         for (var i = 0; i < data.length; i++) {
             var dataKeyWords = data[i].keywords
