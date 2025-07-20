@@ -135,30 +135,9 @@
     <div id="turnHint" style="position:fixed;top:0;left:0;width:100vw;height:100vh;background-color:lightyellow;color:gray;font-family:arial;text-align:center;justify-content-center;align-items:center;display:none" >
       <h1>Please Turn your phone horizontally to have better view!</h1>
     </div>
-    <script>
-      var UserAgentString = navigator.userAgent
-      window.onload = function () {
-        console.log(UserAgentString)
-        console.log("width: "+window.innerWidth+" height: "+window.innerHeight)
-        if (UserAgentString.includes("iPhone") || UserAgentString.includes("Android")) {
-           if (window.innerWidth < window.innerHeight) {
-              document.getElementById("turnHint").style.display="flex";
-           } else {
-              document.getElementById("turnHint").style.display="none";
-           }
-        }
-      }
-window.addEventListener("resize", function () {
-    if (UserAgentString.includes("iPhone") || UserAgentString.includes("Android")) {
-        if (window.innerWidth < window.innerHeight) {
-            document.getElementById("turnHint").style.display="flex";
-        } else {
-            document.getElementById("turnHint").style.display="none";
-        }
-    }
-})
-    </script>
+    <script src="turnHint.js"></script>
     <script src="view source hint.js"></script>
+    <script src="WakeUpReplit.js"></script>
     <script src="homePage.js"></script>
       
     <!------------------------------------------------------------------------->
