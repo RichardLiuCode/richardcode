@@ -17,7 +17,6 @@ This is a website that talk about My code, it also talk about Mr.Ray chen in com
    - Anything you typed in the form will be saved in your localstorage and will be appear when you open the same form until you submit the form.
 - hidden files
   - View them all in https://github.com/RichardLiuCode/richardcode or enter the correct URL
-  
 ## Visit site
 [Click here to visit site ↗️](https://RichardLiuCode.github.io/richardcode) 
 
