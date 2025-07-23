@@ -23,7 +23,7 @@ This is a website that talk about My code, it also talk about Mr.Ray chen in com
 [Click here to visit site ↗️](https://RichardLiuCode.github.io/richardcode) 
 
 ## Language
-- HTML
+- HTML 
 - Css
 - JS
 - Binary file (docx, pdf)
