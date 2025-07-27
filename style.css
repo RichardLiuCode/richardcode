@@ -111,7 +111,19 @@ textarea:focus {
         color: blue;
         font-size: 20px;
     }
-    .HiddenURLButton {
+.HiddenURLButton {
       display:none;
-    }
+}
 
+.bottombar {
+    position: fixed;
+    background-color: aliceblue;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 35px;
+    font-family: arial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
