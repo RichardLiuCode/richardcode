@@ -15,8 +15,6 @@ This is a website that talk about My code, it also talk about Mr.Ray chen in com
    - The feedback form is powered by Google firebase
    - Origninally the form was a google form, but now it changed to a html/css/js form that powered by google firebase.
    - Anything you typed in the form will be saved in your localstorage and will be appear when you open the same form until you submit the form.
-- hidden files
-  - View them all in https://github.com/RichardLiuCode/richardcode or enter the correct URL
 ## Visit site
 [Click here to visit site ↗️](https://RichardLiuCode.github.io/richardcode) 
 
