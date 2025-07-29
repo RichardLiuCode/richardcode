@@ -1,4 +1,4 @@
-# ![logo](logo.png) Richard Code
+# ![logo](logo.svg) Richard Code
 This is a website that talk about My code, it also talk about Mr.Ray chen in computer science class and the code different between code.org and browser.
 ## Features
 - View My projects
