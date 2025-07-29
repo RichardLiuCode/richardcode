@@ -25,4 +25,3 @@ This is a website that talk about My code, it also talk about Mr.Ray chen in com
 - Binary file (docx, pdf)
 
 ### By Richard
-![logo](logo180px.png)
