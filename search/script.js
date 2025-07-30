@@ -8,8 +8,12 @@ window.onload = function () {
         var urlInput = new URLSearchParams(window.location.search);
         var urlQ = urlInput.get("q");
         if (urlQ) {
-            document.getElementById("searchInput").value = urlQ;
-            search();
+            if (urlQ=="//gruel//"){
+                window.open("https://richardliucode.github.io/richardcode/hidden/please.txt");
+            } else {
+                document.getElementById("searchInput").value = urlQ;
+                search();
+            }
         }
     }
 }
