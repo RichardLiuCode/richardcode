@@ -25,7 +25,7 @@ This is a website that talk about My code, it also talk about Mr.Ray chen in com
 - JS
 
 ## Sample
-|< > ````</> Home ×```` ````🌐 HTML editor v1.3 ×````|
+| ````</> Home ×```` ````🌐 HTML editor v1.3 ×````|
 |-|
 |![sample](sampleForREADME.png)|
 ### By Richard
