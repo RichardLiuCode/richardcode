@@ -25,7 +25,7 @@ This is a website that talk about My code, it also talk about Mr.Ray chen in com
 - JS
 
 ## Sample
-||
+|![](logo180px.png)|
 |-|
 |![sample](sampleForREADME.png)|
 ### By Richard
