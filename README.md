@@ -38,7 +38,6 @@ This is a website that talk about My code, it also talk about Mr.Ray chen in com
         <td colspan="6">
             <img src="sampleForREADME.png" alt="website sample">
         </td>
-
     </tr>
 </table>
       
