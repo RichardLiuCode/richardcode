@@ -28,18 +28,18 @@ This is a website that talk about My code, it also talk about Mr.Ray chen in com
 <table>
                 <tr>
                     <td>‹/› Home ×</td>
-                    <td>🌐 HTML editor v1.3 ×</td>
+                    <td>🌐 HTML editor ×</td>
                     <td>🌐 richard.com ×</td>
-                    <td>🌐 oliver.com ×</td>
                     <td>🌐 sigma.com ×</td>
                     <td>🌐 skibidi.com ×</td>
                     <td>🚫 Error ×</td>
-                    <td>🧩 - ▯ ×</td>
+                    <td>×</td>
                 </tr>
               <tr>
-                <td collapse="9">
+                <td colspan="6">
                   <img src="sampleForREADME.png" alt="website sample">
                 </td>
+                <td></td>
               </tr>
             </table>
       
