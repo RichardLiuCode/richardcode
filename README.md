@@ -26,9 +26,6 @@ This is a website that talk about My code, it also talk about Mr.Ray chen in com
 
 ## Sample
 <table>
-    <tr>
-        <td>
-            <table>
                 <tr>
                     <td>‹/› Home ×</td>
                     <td>🌐 HTML editor v1.3 ×</td>
@@ -39,16 +36,12 @@ This is a website that talk about My code, it also talk about Mr.Ray chen in com
                     <td>🚫 Error ×</td>
                     <td>🧩 - ▯ ×</td>
                 </tr>
+              <tr>
+                <td collapse="9">
+                  <img src="sampleForREADME.png" alt="website sample">
+                </td>
+              </tr>
             </table>
-        </td>
-    </tr>
-    <tr>
-        <td colspan="8">
-            <img src="sampleForREADME.png" alt="website sample">
-        </td>
-    </tr>
-</table>
-
-
+      
 
 ### By Richard
