@@ -33,13 +33,12 @@ This is a website that talk about My code, it also talk about Mr.Ray chen in com
                     <td>🌐 sigma.com ×</td>
                     <td>🌐 skibidi.com ×</td>
                     <td>🚫 Error ×</td>
-                    <td>×</td>
                 </tr>
               <tr>
                 <td colspan="6">
                   <img src="sampleForREADME.png" alt="website sample">
                 </td>
-                <td></td>
+               
               </tr>
             </table>
       
