@@ -25,7 +25,18 @@ This is a website that talk about My code, it also talk about Mr.Ray chen in com
 - JS
 
 ## Sample
-| ````</> Home ×```` ````🌐 HTML editor v1.3 × ```` ````🌐 richard.com ×```` ````🌐 oliver.com × ```` ````🌐 sigma.com × ```` ````🌐 skibidi.com ×```` ````🚫 Error ×````🧩 - ▯ × |
+<table>
+  <tr>
+    <td>
+    ‹/› Home ×
+    </td>
+    <td>🌐 HTML editor v1.3 ×</td>
+  </tr>
+  <tr>
+    <td><img src="sampleForREADME.png" alt="website sample"></td>
+  </tr>
+</table>
+| ```````` ```` ```` ````🌐 richard.com ×```` ````🌐 oliver.com × ```` ````🌐 sigma.com × ```` ````🌐 skibidi.com ×```` ````🚫 Error ×````🧩 - ▯ × |
 |-|
-|![sample](sampleForREADME.png)|
+
 ### By Richard
