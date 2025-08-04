@@ -26,21 +26,21 @@ This is a website that talk about My code, it also talk about Mr.Ray chen in com
 
 ## Sample
 <table>
-                <tr>
-                    <td>‹/› Home ×</td>
-                    <td>🌐 HTML editor ×</td>
-                    <td>🌐 richard.com ×</td>
-                    <td>🌐 sigma.com ×</td>
-                    <td>🌐 skibidi.com ×</td>
-                    <td>🚫 Error ×</td>
-                </tr>
-              <tr>
-                <td colspan="6">
-                  <img src="sampleForREADME.png" alt="website sample">
-                </td>
-               
-              </tr>
-            </table>
+    <tr>
+        <td>‹/› Home ×</td>
+        <td>🌐 HTML editor ×</td>
+        <td>🌐 richard.com ×</td>
+        <td>🌐 sigma.com ×</td>
+        <td>🌐 skibidi.com ×</td>
+        <td>🚫 Error ×</td>
+    </tr>
+    <tr>
+        <td colspan="6">
+            <img src="sampleForREADME.png" alt="website sample">
+        </td>
+
+    </tr>
+</table>
       
 
 ### By Richard
