@@ -25,6 +25,6 @@ This is a website that talk about My code, it also talk about Mr.Ray chen in com
 - JS
 
 ## Sample
-<img src="2sampleForREADME 2025-08-04 115256.png" alt="website sample">     
+![website sample](2sampleForREADME 2025-08-04 115256.png)  
 
 ### By Richard
