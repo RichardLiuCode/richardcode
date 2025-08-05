@@ -25,6 +25,6 @@ This is a website that talk about My code, it also talk about Mr.Ray chen in com
 - JS
 
 ## Sample
-![website sample](2sampleForREADME%202025-08-04%20115256.png)  
+![website sample](WebsiteDemo.gif)  
 
 ### By Richard
