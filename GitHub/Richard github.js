@@ -1,6 +1,6 @@
 window.onload = function () {
     document.getElementById("githubLink").innerText = "Github Link"
-    document.getElementById("PROJECTSTITLE").innerText = "Projects";
+    document.getElementById("PROJECTSTITLE").innerText = "All Public Projects";
     console.log("Loded success");
 
     fetch("https://api.github.com/users/RichardLiucode").then(function (Response) {
@@ -73,8 +73,8 @@ window.onload = function () {
             }
             ProjectsDisplay.appendChild(ProjectsListContainer)
             console.log(projectsList);
-            
-        });  
+
+        });
     //load the iframe slowly
 }
 
