@@ -116,3 +116,10 @@ textarea {
 #topProjectsList a:hover {
     color: rgb(77, 91, 246);
 }
+
+#ProjectsDisplay {
+    height: 600px;
+    overflow-y: auto;
+    width: 1020px;
+    scrollbar-width: none;
+}
