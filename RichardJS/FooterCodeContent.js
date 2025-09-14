@@ -16,7 +16,7 @@ var footerJS = {
     },
     "hostByPlatformText": function () {
         if (footerJS.getHostPlatform() != "") {
-            return "Host by "
+            return "Power by "
         } else {
             return "HTML / CSS / JS"
         }
