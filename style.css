@@ -16,6 +16,7 @@ body {
   text-align: left;
   border-radius: 10px;
   border: none;
+  box-shadow: 7px 7px 10px blue;
 }
 
 .frame:hover {
@@ -37,6 +38,7 @@ button {
 #share,
 .searchBTN {
   width: 230px;
+  box-shadow: 2px 2px 4px rgb(115, 115, 177);
 }
 
 button:active {
@@ -109,7 +111,7 @@ textarea:focus {
   border-width: 2px;
   border-radius: 0px;
   border-color: blue;
-  
+
 
 }
 
