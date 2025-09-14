@@ -47,7 +47,7 @@ document.body.appendChild(footerJS.footerElement)
 footerJS.footerSecondElement.style = "font-family:arial;display:none;background-color:aliceblue;width:100vw;height:150px;position:fixed;bottom:35px;left:0;"
 document.body.appendChild(footerJS.footerSecondElement);
 /* The inside Element Inside The footer*/
-footerJS.footerIn234.style = "width:670;height:50px;background-color:aliceblue;position:fixed;left:0;bottom:50px;"
+footerJS.footerIn234.style = "width:auto;height:50px;background-color:blue;position:fixed;left:0;bottom:50px;"
 footerJS.footerIn234.innerHTML = "<ol><li>Richard's personal Wesite: <a href=\"https://richardliucode.github.io/richardcode\" style=\"text-decoration:none\">https://richardliucode.github.io/richardcode</a>.</li><li> Richard's Youtube Channel: <a href=\"https://www.youtube.com/channel/UCuvJA2I2rsiTfEPHqllr_dQ\" style=\"text-decoration:none\">https://www.youtube.com/channel/UCuvJA2I2rsiTfEPHqllr_dQ</a></li></ol>"
 footerJS.footerSecondElement.appendChild(footerJS.footerIn234)
 /* The top Left element inside the footer*/
