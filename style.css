@@ -6,6 +6,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .frame {
   font-family: Arial;
   margin: 0 auto;
@@ -14,29 +15,42 @@ body {
   width: 70vw;
   text-align: left;
   border-radius: 10px;
+  border: none;
 }
+
+.frame:hover {
+  background-color: rgb(139, 210, 238);
+}
+
 textarea {
   resize: none;
 }
+
 button {
-  
+
   border-radius: 0;
   border-color: blue;
   background-color: white;
 }
-#viewCode,#share,.searchBTN{
-  width:230px;
+
+#viewCode,
+#share,
+.searchBTN {
+  width: 230px;
 }
+
 button:active {
   background-color: lightgray;
 }
+
 .bar {
   padding: 10px;
   background-color: white;
   text-align: left;
-  position:fixed;
-  width:100vw;
+  position: fixed;
+  width: 100vw;
 }
+
 #bingSearchInput {
   height: 36px;
   width: 400px;
@@ -45,6 +59,7 @@ button:active {
   border-color: blue;
   background-color: white;
 }
+
 #bingSearchButton {
   height: 40px;
   border-radius: 0;
@@ -64,67 +79,70 @@ input:focus,
 textarea:focus {
   outline: 0px;
 }
-.side-bar{
-  position:fixed;
-  bottom:0;
-  width:250px;
-  height:100vh;
-  background-color:lightgray
+
+.side-bar {
+  position: fixed;
+  bottom: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #f3f4f6
 }
+
 #submitButton {
-        width: 100px;
-        height: 35px;
-        font-size: 20px;
-        background-color: lightgreen
-    }
+  width: 100px;
+  height: 35px;
+  font-size: 20px;
+  background-color: lightgreen
+}
 
-    #submitButton:active {
-        background-color: greenyellow;
-        border-width: 1px;
-    }
+#submitButton:active {
+  background-color: greenyellow;
+  border-width: 1px;
+}
 
-    #formContent {
+#formContent {
 
-        width: 70vw;
-        height: 300px;
-        resize: none;
-        font-size: 25px;
-        border-width: 2px;
-        border-radius: 0px;
-        border-color: blue;
-        "
+  width: 70vw;
+  height: 300px;
+  resize: none;
+  font-size: 25px;
+  border-width: 2px;
+  border-radius: 0px;
+  border-color: blue;
+  "
 
-    }
+}
 
-    #nameInput {
-        border-width: 2px;
-        border-radius: 0px;
-        border-color: blue;
-        width: 220px;
-        height: 30px;
-        font-family: arial;
-        font-size: 25px;
-    }
+#nameInput {
+  border-width: 2px;
+  border-radius: 0px;
+  border-color: blue;
+  width: 220px;
+  height: 30px;
+  font-family: arial;
+  font-size: 25px;
+}
 
-    #status {
-        margin-left: 20px;
-        color: blue;
-        font-size: 20px;
-    }
+#status {
+  margin-left: 20px;
+  color: blue;
+  font-size: 20px;
+}
+
 .HiddenURLButton {
-      display:none;
+  display: none;
 }
 
 .bottombar {
-    position: fixed;
-    background-color: aliceblue;
-    bottom: 0;
-    left: 0;
-    width: 100vw;
-    height: 35px;
-    font-family: arial;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    user-select: none;
+  position: fixed;
+  background-color: aliceblue;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 35px;
+  font-family: arial;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
 }
