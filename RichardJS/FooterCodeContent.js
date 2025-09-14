@@ -54,3 +54,4 @@ footerJS.footerSecondElement.appendChild(footerJS.footerIn234)
 footerJS.footerIn6783.style = "width:660px;height:80px;background-color:aliceblue;position:fixed;left:20px;bottom:105px;";
 footerJS.footerIn6783.innerHTML = "<h3 style=\"Display:flex;justigy-content:left;align-items:center;gap:10px;color:blue;user-select:none;text-align:left;\"><img src=\"https://richardliucode.github.io/richardcode/logo180px.png\" style=\"pointer-events:none;width:25px;border-radius:3px;\" alt=\"Richard's Logo\"> RichardLiuCode</h3>This website was created by Richard<hr>"
 footerJS.footerSecondElement.appendChild(footerJS.footerIn6783)
+/* Auto Hide the second footer */
