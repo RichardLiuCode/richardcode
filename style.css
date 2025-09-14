@@ -41,8 +41,9 @@ button {
   box-shadow: 2px 2px 4px rgb(115, 115, 177);
 }
 
-button:active {
-  background-color: lightgray;
+
+button:hover {
+  background-color: rgb(249, 241, 241);
 }
 
 .bar {
