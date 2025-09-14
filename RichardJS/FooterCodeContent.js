@@ -6,6 +6,9 @@ var footerJS = {
         } else if (window.location.href.includes(".onrender.com")) {
             return "Render"
         } else if (window.location.href.includes("https://codeprojects.org/projects")) {
+            if (document.getElementById("codeprojects_pagefooter").style) {
+                document.getElementById("codeprojects_pagefooter").style.display = "none";
+            }
             return "code.org"
         } else {
             return ""
