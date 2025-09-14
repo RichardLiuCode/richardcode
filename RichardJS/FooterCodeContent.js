@@ -11,7 +11,6 @@ var footerJS = {
                 footerJS.styleTag.innerHTML = "#codeprojects_pagefooter{display:none}"
                 document.head.appendChild(footerJS.styleTag)
             }
-
             return "code.org"
         } else {
             return ""
