@@ -47,10 +47,10 @@ document.body.appendChild(footerJS.footerElement)
 footerJS.footerSecondElement.style = "font-family:arial;display:none;background-color:aliceblue;width:100vw;height:150px;position:fixed;bottom:35px;left:0;"
 document.body.appendChild(footerJS.footerSecondElement);
 /* The inside Element Inside The footer*/
-footerJS.footerIn234.style = "width:auto;height:50px;background-color:aliceblue;position:fixed;left:0;bottom:50px;"
-footerJS.footerIn234.innerHTML = "<ol><li>Richard's personal Wesite: <a href=\"https://richardliucode.github.io/richardcode\" style=\"text-decoration:none\" target=\"_blank\">https://richardliucode.github.io/richardcode</a>.</li><li> Richard's Youtube Channel: <a href=\"https://www.youtube.com/channel/UCuvJA2I2rsiTfEPHqllr_dQ\" style=\"text-decoration:none\"  target=\"_blank\">https://www.youtube.com/channel/UCuvJA2I2rsiTfEPHqllr_dQ</a></li></ol>"
+footerJS.footerIn234.style = "width:auto;height:50px;background-color:aliceblue;position:fixed;left:0;bottom:50px;text-align:left"
+footerJS.footerIn234.innerHTML = "<ol><li>Richard's personal Wesite: <a href=\"https://richardliucode.github.io/richardcode\" style=\"text-decoration:none;text-align:left\" target=\"_blank\">https://richardliucode.github.io/richardcode</a>.</li><li> Richard's Youtube Channel: <a href=\"https://www.youtube.com/channel/UCuvJA2I2rsiTfEPHqllr_dQ\" style=\"text-decoration:none\"  target=\"_blank\">https://www.youtube.com/channel/UCuvJA2I2rsiTfEPHqllr_dQ</a></li></ol>"
 footerJS.footerSecondElement.appendChild(footerJS.footerIn234)
 /* The top Left element inside the footer*/
 footerJS.footerIn6783.style = "width:660px;height:80px;background-color:aliceblue;position:fixed;left:20px;bottom:105px;";
-footerJS.footerIn6783.innerHTML = "<h3 style=\"Display:flex;justigy-content:center;align-items:center;gap:10px;color:blue;user-select:none\"><img src=\"https://richardliucode.github.io/richardcode/logo180px.png\" style=\"pointer-events:none;width:25px;border-radius:3px;\" alt=\"Richard's Logo\"> RichardLiuCode</h3>This website was created by Richard<hr>"
+footerJS.footerIn6783.innerHTML = "<h3 style=\"Display:flex;justigy-content:left;align-items:center;gap:10px;color:blue;user-select:none\"><img src=\"https://richardliucode.github.io/richardcode/logo180px.png\" style=\"pointer-events:none;width:25px;border-radius:3px;\" alt=\"Richard's Logo\"> RichardLiuCode</h3>This website was created by Richard<hr>"
 footerJS.footerSecondElement.appendChild(footerJS.footerIn6783)
