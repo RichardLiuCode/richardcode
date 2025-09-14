@@ -1,5 +1,6 @@
 var footerJS = {
     "footerElement": document.createElement("footer"),
+    "styleTag": document.createElement("style"),
     "getHostPlatform": function () {
         if (window.location.href.includes(".github.io/")) {
             return "GitHub"
@@ -7,8 +8,10 @@ var footerJS = {
             return "Render"
         } else if (window.location.href.includes("https://codeprojects.org/projects")) {
             if (document.getElementById("codeprojects_pagefooter")) {
-                document.getElementById("codeprojects_pagefooter").style.display = "none";
+                footerJS.styleTag.innerHTML = "#codeprojects_pagefooter{display:none}"
+                document.head.appendChild(footerJS.styleTag)
             }
+
             return "code.org"
         } else {
             return ""
