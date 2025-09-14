@@ -3,7 +3,9 @@ var footerJS = {
     "getHostPlatform": function () {
         if (window.location.href.includes(".github.io/")) {
             return "GitHub"
-        } else if (window.location.href.includes("https://codeprojects.org/projects")) {
+        } else if (window.location.href.includes(".onrender.com")) {
+            return "Render"
+        }else if (window.location.href.includes("https://codeprojects.org/projects")) {
             return "code.org"
         }
     }
