@@ -22,7 +22,9 @@ var footerJS = {
         } else {
             return "HTML / CSS / JS"
         }
-    }
+    },
+    "footerSecondElement": document.createElement("div"),
+    "footerIn234": document.createElement("div")
 }
 footerJS.footerElement.style = "position: fixed;background-color: aliceblue;bottom: 0;left: 0;width: 100vw;height: 35px;    font-family: arial;    display: flex;    justify-content: space-between;    align-items: center;    user-select: none;"
 footerJS.footerElement.addEventListener("mouseover", function () {
@@ -31,5 +33,19 @@ footerJS.footerElement.addEventListener("mouseover", function () {
 footerJS.footerElement.addEventListener("mouseout", function () {
     footerJS.footerElement.style.backgroundColor = "aliceblue"
 })
+footerJS.footerElement.addEventListener("click", function () {
+    if (footerJS.footerSecondElement.style.display == "none") {
+        footerJS.footerSecondElement.style.display = "revert";
+    } else {
+        footerJS.footerSecondElement.style.display = "none";
+    }
+})
 footerJS.footerElement.innerHTML = "<p style=\"margin-left: 15px; \">© " + new Date().getFullYear() + " Richard Liu</p><p>RichardCode</p><p style=\"margin-right: 18px; \">" + footerJS.hostByPlatformText() + footerJS.getHostPlatform() + "</p>"
 document.body.appendChild(footerJS.footerElement)
+/* Add Second Footer Element */
+footerJS.footerSecondElement.style = "font-family:arial;display:none;background-color:aliceblue;width:100vw;height:150px;position:fixed;bottom:35px;left:0;"
+document.body.appendChild(footerJS.footerSecondElement);
+/* The left Element Inside The footer*/
+footerJS.footerIn234.style = "width:auto;height:50px;background-color:aliceblue;position:fixed;left:0;bottom:50px;"
+footerJS.footerIn234.innerHTML = "<ol><li>Richard's personal Wesite: <a href=\"https://richardliucode.github.io/richardcode\" style=\"text-decoration:none\">https://richardliucode.github.io/richardcode</a>.</li><li> Richard's Youtube Channel: <a href=\"https://www.youtube.com/channel/UCuvJA2I2rsiTfEPHqllr_dQ\" style=\"text-decoration:none\">https://www.youtube.com/channel/UCuvJA2I2rsiTfEPHqllr_dQ</a></li></ol>"
+footerJS.footerSecondElement.appendChild(footerJS.footerIn234)
