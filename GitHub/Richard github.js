@@ -50,7 +50,7 @@ window.onload = function () {
                 projectContent.style.color = "blue"
                 projectContent.innerHTML =
                     "<hr class='separate'>" +
-                    "<div style='display:flex;justify-content:space-between'>" +
+                    "<div style='display:flex;justify-content:left'>" +
                     //----------------
                     "<div>" +
                     "<p>" + "Description: " + (data[i].description || "no description") + "</p>" +
@@ -59,13 +59,8 @@ window.onload = function () {
                     "<p>" + "Code URL: <a href='" + data[i].html_url + "' target='_blank' >" + data[i].html_url + "</a>" + "</p>" +
                     "<p>" + "Created date: " + formatDate(data[i].created_at) + "</p>" +
                     "<p>" + "Last update: " + formatDate(data[i].updated_at) + "</p>" +
-                    "</div>" +
-                    //--------------
-                    "<iframe src='" +
-                    "https://richardliucode.github.io/" + data[i].name +
-                    "' style='border:none;margin-right:30px' width='350;' sandbox='allow-scripts allow-same-origin'></iframe>"
+                    "</div>" 
 
-                    ;
                 details.appendChild(projectContent);
 
                 outerList.appendChild(details);
