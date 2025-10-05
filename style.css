@@ -19,20 +19,17 @@ body {
   box-shadow: 0 0 10px 6px blue;
 }
 
-@media (max-width:400px) {
-  .frame {
-    width: 240px;
-    padding: 30px
-  }
-  
-}
-
 .frame:hover {
   background-color: rgb(139, 210, 238);
 }
 
 textarea {
   resize: none;
+}
+
+.bottombar {
+  font-size: 12px;
+  justify-content: space-between;
 }
 
 button {
@@ -156,4 +153,25 @@ textarea:focus {
   justify-content: space-between;
   align-items: center;
   user-select: none;
+}
+
+
+@media (max-width:500px) {
+  .frame {
+    width: 260px;
+    padding: 30px
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 7px;
+  }
+
+  #nameInput,
+  #formContent {
+    width: 100%;
+  }
 }
