@@ -23,6 +23,10 @@ body {
   background-color: rgb(139, 210, 238);
 }
 
+p {
+  font-size: 17px;
+}
+
 textarea {
   resize: none;
 }
@@ -155,6 +159,9 @@ textarea:focus {
   user-select: none;
 }
 
+a:visited {
+  color: blue;
+}
 
 @media (max-width:650px) {
   .frame {
