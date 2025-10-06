@@ -156,9 +156,9 @@ textarea:focus {
 }
 
 
-@media (max-width:500px) {
+@media (max-width:650px) {
   .frame {
-    width: 260px;
+    width: 460px;
     padding: 30px
   }
 
@@ -166,8 +166,9 @@ textarea:focus {
     font-size: 20px;
   }
 
-  h2 {
-    font-size: 7px;
+  p,
+  a {
+    font-size: 13px;
   }
 
   #nameInput,
