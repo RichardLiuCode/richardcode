@@ -47,6 +47,7 @@ footerJS.footerElement.addEventListener("click", function () {
             for (footerJS.i = 0; footerJS.i < footerJS.innerElements.length; footerJS.i++) {
                 footerJS.innerElements[footerJS.i].style.display = "revert";
             }
+            footerJS.footerSecondElement.style.height = "150px";
         }, 1005)
 
     } else {
