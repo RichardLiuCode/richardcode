@@ -26,16 +26,15 @@
 </head>
 
 <body>
-     <div id="sideBar" class="side-bar" style="display:none">
-        <br />
-        <div style="height: 40px"></div>
+    <div id="sideBar" class="side-bar">
+        <div id="sidebarHigherButtonContainer" style="height: 40px;margin-top:15px;"></div>
         <button id="viewCode">View source code</button>
         <br /><br />
         <button id="share">share this website</button>
         <br /><br />
         <button onclick="window.location.href='search'" class="searchBTN">Search page</button>
         <hr />
-        <iframe src="indexs/sidebarindex.html" style="border-width: 0px; width: 250px; height: 1000px">
+        <iframe src="indexs/sidebarindex.html" id="345side" style="border-width: 0px; width: 250px; height: 1000px">
             Error
         </iframe>
         <div style="
@@ -67,7 +66,8 @@
 
         <p>
             View my projects:
-            <a href="https://codeprojects.org/projects/weblab/DRPF0isS6kS_02osFyloCZw-NEOyFZ39zeKYcXfEZ2E/appData.html" target="blank">Code.org projects,</a>
+            <a href="https://codeprojects.org/projects/weblab/DRPF0isS6kS_02osFyloCZw-NEOyFZ39zeKYcXfEZ2E/appData.html"
+                target="blank">Code.org projects,</a>
             <!--
         The Glitch was already closed
         <a href="glitchProjects.html">Glitch projects</a>
@@ -110,19 +110,19 @@
         <p>RichardCode</p>
         <p style="margin-right:18px;">Host by GitHub</p>
     </footer>
-    <div id="turnHint" style="position:fixed;top:0;left:0;width:100vw;height:100vh;background-color:lightyellow;color:gray;font-family:arial;text-align:center;justify-content-center;align-items:center;display:none">
+    <div id="turnHint"
+        style="position:fixed;top:0;left:0;width:100vw;height:100vh;background-color:lightyellow;color:gray;font-family:arial;text-align:center;justify-content-center;align-items:center;display:none">
         <h1>Please Turn your phone horizontally to have better view!</h1>
     </div>
     <script src="turnHint.js"></script>
     <script src="view source hint.js"></script>
-    <script src="WakeUpReplit.js"></script>
     <script src="homePage.js"></script>
     <script>/*----*/</script>
-    
+
     <!------------------------------------------------------------------------->
     <!------------------------------------------------------------------------->
     <!-- These text are just the note for developer -->
-    
+
     <!-- About Me -->
     <a href="richard.txt" class="HiddenURLButton">About me</a>
 
@@ -133,7 +133,7 @@
     <a href="https://Github.com/RichardLiuCode/richardcode" class="HiddenURLButton">GitHub URL</a>
 
     <!--Shorten URL: View all the shorten URLs on "https://richardliucode.github.io/richardcode/ShortenURL.html" -->
-    
+
     <!--_____________________________________________________________________-->
     <!------------------------------------------------------------------------->
 

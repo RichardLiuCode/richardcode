@@ -25,7 +25,9 @@ var footerJS = {
     },
     "footerSecondElement": document.createElement("div"),
     "footerIn234": document.createElement("div"),
-    "footerIn6783": document.createElement("div")
+    "footerIn6783": document.createElement("div"),
+    "innerElements": "null",
+    "i": 0
 }
 footerJS.footerElement.style = "position: fixed;background-color: aliceblue;bottom: 0;left: 0;width: 100vw;height: 35px;    font-family: arial;    display: flex;    justify-content: space-between;    align-items: center;    user-select: none;"
 footerJS.footerElement.addEventListener("mouseover", function () {
@@ -35,16 +37,26 @@ footerJS.footerElement.addEventListener("mouseout", function () {
     footerJS.footerElement.style.backgroundColor = "aliceblue"
 })
 footerJS.footerElement.addEventListener("click", function () {
-    if (footerJS.footerSecondElement.style.display == "none") {
-        footerJS.footerSecondElement.style.display = "revert";
+    footerJS.innerElements = footerJS.footerSecondElement.querySelectorAll("div,p,hr,br,h1,img,li");
+    if (footerJS.footerSecondElement.style.height == "0px") {
+        footerJS.footerSecondElement.style.height = "150px";
+        setTimeout(() => {
+            for (footerJS.i = 0; footerJS.i < footerJS.innerElements.length; footerJS.i++) {
+                footerJS.innerElements[footerJS.i].style.display = "revert";
+            }
+        }, 1005)
+
     } else {
-        footerJS.footerSecondElement.style.display = "none";
+        footerJS.footerSecondElement.style.height = "0px";
+        for (footerJS.i = 0; footerJS.i < footerJS.innerElements.length; footerJS.i++) {
+            footerJS.innerElements[footerJS.i].style.display = "none";
+        }
     }
 })
 footerJS.footerElement.innerHTML = "<p style=\"margin-left: 15px; \">© " + new Date().getFullYear() + " Richard Liu</p><p>RichardCode</p><p style=\"margin-right: 18px; \">" + footerJS.hostByPlatformText() + footerJS.getHostPlatform() + "</p>"
 document.body.appendChild(footerJS.footerElement)
 /* Add Second Footer Element */
-footerJS.footerSecondElement.style = "font-family:arial;display:none;background-color:aliceblue;width:100vw;height:150px;position:fixed;bottom:35px;left:0;"
+footerJS.footerSecondElement.style = "transition:1s;font-family:arial;display:revert;background-color:aliceblue;width:100vw;height:150px;position:fixed;bottom:35px;left:0;"
 document.body.appendChild(footerJS.footerSecondElement);
 /* The inside Element Inside The footer*/
 footerJS.footerIn234.style = "width:auto;height:50px;background-color:aliceblue;position:fixed;left:0;bottom:50px;text-align:left"

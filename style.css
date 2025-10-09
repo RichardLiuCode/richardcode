@@ -24,7 +24,7 @@ body {
     width: 240px;
     padding: 30px
   }
-  
+
 }
 
 .frame:hover {
@@ -48,7 +48,6 @@ button {
   width: 230px;
   box-shadow: 2px 2px 4px rgb(115, 115, 177);
 }
-
 
 button:hover {
   background-color: rgb(249, 241, 241);
@@ -96,7 +95,8 @@ textarea:focus {
   bottom: 0;
   width: 250px;
   height: 100vh;
-  background-color: rgb(226, 236, 245)
+  background-color: rgb(226, 236, 245);
+  transition: 1s;
 }
 
 #submitButton {
