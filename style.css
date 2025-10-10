@@ -97,6 +97,7 @@ textarea:focus {
   height: 100vh;
   background-color: rgb(226, 236, 245);
   transition: 1s;
+  transition-property: width, left;
 }
 
 #submitButton {
