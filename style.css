@@ -48,6 +48,7 @@ button {
 .searchBTN {
   width: 230px;
   box-shadow: 2px 2px 4px rgb(115, 115, 177);
+  display: none;
 }
 
 button:hover {
