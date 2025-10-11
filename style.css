@@ -170,3 +170,7 @@ textarea:focus {
   align-items: center;
   user-select: none;
 }
+
+a:visited {
+  color: blue;
+}
