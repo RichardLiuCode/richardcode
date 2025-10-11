@@ -9,14 +9,15 @@ document.getElementById("share").addEventListener("click", function () {
   });
 });
 var isShowSideBar = 1;
-document.getElementById("sideBar").style.display = "revert";
+let sideBarElements = document.getElementById("sideBar").querySelectorAll("button,hr,div,p,iframe");
+document.getElementById("sideBar").style.display = "none";
 document.getElementById("showSideBar").addEventListener("click", function () {
+  let sideBarElements = document.getElementById("sideBar").querySelectorAll("button,hr,div,p,iframe");
   if (isShowSideBar == 0) {
     isShowSideBar = 1;
     document.getElementById("sideBar").style.width = "250px"
-    document.getElementById("showSideBar").innerHTML = "Hide side-bar";
+
     setTimeout(function () {
-      let sideBarElements = document.getElementById("sideBar").querySelectorAll("button,hr,div,p,iframe");
       for (let i = 0; i < sideBarElements.length; i = i + 1) {
         sideBarElements[i].style.display = "revert";
         document.getElementById("sideBar").style.width = "250px"
@@ -25,10 +26,18 @@ document.getElementById("showSideBar").addEventListener("click", function () {
   } else {
     isShowSideBar = 0;
     document.getElementById("sideBar").style.width = "0px";
-    let sideBarElements = document.getElementById("sideBar").querySelectorAll("button,hr,div,p,iframe");
     for (let i = 0; i < sideBarElements.length; i = i + 1) {
       sideBarElements[i].style.display = "none";
     }
-    document.getElementById("showSideBar").innerHTML = "Show side-bar";
+
   }
 });
+isShowSideBar = 0;
+document.getElementById("sideBar").style.width = "0px";
+for (let i = 0; i < sideBarElements.length; i = i + 1) {
+  sideBarElements[i].style.display = "none";
+}
+
+setTimeout(function () {
+  document.getElementById("sideBar").style.display = "revert";
+}, 1200)
