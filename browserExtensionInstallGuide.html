@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <title>How to install an unpacked browser extension</title>
+    <link rel="icon" href="logo.png">
+    <link rel="apple-touch-icon" href="logo180px.png">
     <style>
         body {
             font-family: arial;
@@ -12,7 +15,6 @@
             justify-content: center;
             align-items: flex-start;
             overflow-x: hidden;
-            overflow-y: hidden;
         }
 
         .main {
@@ -41,11 +43,15 @@
             padding: 10px;
             border-radius: 5px;
         }
+
+        #moreLinebreak {
+            display: none
+        }
     </style>
 </head>
 
 <body>
-    <div class="main">
+    <div class="main" id="main">
         <ol>
             <li>
                 <h2>Download the extensions</h2>
@@ -92,14 +98,33 @@
                 </ul>
             </li>
         </ol>
-        <div class="popupHint">
+        <div class="popupHint" id="popupHint">
             For sercurity reason, browser will remind you with a popup message that said you turned on
             the developer mode
             because you installed a third party extensions, if you make sure the extensions is from trused sources or
             you
             checked the code that it is safe to use, then you can ignore the message.
         </div>
+        <div id="moreLinebreak">
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
     </div>
+    <script>
+        if (window.opener) {
+            const newStyle = document.createElement("style");
+            newStyle.innerText = "body{overflow-y: hidden;background-color:white}";
+            document.body.appendChild(newStyle);
+        } else {
+            const footer = document.createElement("script");
+            footer.src = "https://richardliucode.github.io/richardcode/RichardJS/footer.js";
+            document.body.appendChild(footer);
+            document.getElementById("moreLinebreak").style.display = "revert"
+
+        }
+    </script>
 </body>
 
 </html>
