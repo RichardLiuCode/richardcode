@@ -1,0 +1,125 @@
+body {
+    font-family: arial;
+    background-image: url("https://cdn.glitch.global/bac19a0b-196b-413f-a2bd-9f3e52e9e76d/microchief.png?v=1747378021263");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#titleDisplay {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.box {
+    margin: 0 auto;
+    padding: 20px;
+    width: 1020px;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+.separate {
+    border: none;
+    height: 2px;
+    background-color: lightgray;
+}
+
+#PROJECTSTITLE,
+#topProjectTitle {
+    color: blue;
+    text-align: center;
+}
+
+#noscript {
+    background-color: red;
+    color: white;
+
+}
+
+details summary {
+    list-style: none;
+    cursor: pointer;
+
+}
+
+details summary::-webkit-datails-marker {
+    display: none;
+}
+
+.topBtn {
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 0;
+    border-color: blue;
+    background-color: white;
+}
+
+details:hover {
+    color: gray;
+}
+
+#searchBing {
+    width: 290px;
+    height: 40px;
+    background-color: white;
+    border-radius: arial;
+    border-width: 2px;
+    text-align: center;
+
+}
+
+#searchEngineResult {
+    border: none;
+}
+
+textarea:focus {
+    outline: none;
+
+}
+
+textarea {
+    padding: 10px;
+    font-size: 20px;
+    font-family: arial;
+}
+
+
+.bottombar {
+    position: fixed;
+    background-color: aliceblue;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 35px;
+    font-family: arial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#topProjectsList li {
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+#topProjectsList a {
+    text-decoration: none;
+    color: black;
+}
+
+#topProjectsList a:hover {
+    color: rgb(77, 91, 246);
+}
+
+#ProjectsDisplay {
+    height: 600px;
+    overflow-y: auto;
+    width: 1020px;
+    scrollbar-width: none;
+}

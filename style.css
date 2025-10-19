@@ -1,0 +1,176 @@
+body {
+  text-align: center;
+  margin: 0;
+  background-color: darkblue;
+  background-image: url("https://cdn.glitch.global/bac19a0b-196b-413f-a2bd-9f3e52e9e76d/microchief.png?v=1747378021263");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.frame {
+  font-family: Arial;
+  margin: 0 auto;
+  padding: 100px;
+  background-color: skyblue;
+  width: 1000px;
+  text-align: left;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 10px 6px blue;
+}
+
+@media (max-width:400px) {
+  .frame {
+    width: 240px;
+    padding: 30px
+  }
+
+}
+
+.frame:hover {
+  background-color: rgb(139, 210, 238);
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  box-shadow: 2px 2px 4px rgb(115, 115, 177);
+  border-radius: 0;
+  border-color: blue;
+  background-color: white;
+}
+
+#viewCode,
+#share,
+.searchBTN {
+  width: 230px;
+  box-shadow: 2px 2px 4px rgb(115, 115, 177);
+  display: none;
+}
+
+button:hover {
+  background-color: rgb(249, 241, 241);
+}
+
+.bar {
+  padding: 10px;
+  background-color: white;
+  text-align: left;
+  position: fixed;
+  width: 100vw;
+}
+
+#bingSearchInput {
+  height: 36px;
+  width: 400px;
+  font-size: 40px;
+  border-radius: 0;
+  border-color: blue;
+  background-color: white;
+}
+
+#bingSearchButton {
+  height: 40px;
+  border-radius: 0;
+  border-color: blue;
+  background-color: white;
+  width: 90px;
+  font-size: 20px;
+}
+
+.bingsearch {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0px;
+}
+
+#showSideBar {
+  width: 25px;
+  border: none;
+  box-shadow: none;
+}
+
+#showSideBar:focus {
+  outline: none;
+}
+
+.side-bar {
+  position: fixed;
+  bottom: 0;
+  width: 0px;
+  height: 100vh;
+  background-color: rgb(226, 236, 245);
+  transition: 1s;
+  transition-property: width, left;
+}
+
+#submitButton {
+  width: 100px;
+  height: 35px;
+  font-size: 20px;
+  background-color: lightgreen
+}
+
+#submitButton:active {
+  background-color: greenyellow;
+  border-width: 1px;
+}
+
+#formContent {
+
+  width: 70vw;
+  height: 300px;
+  resize: none;
+  font-size: 25px;
+  border-width: 2px;
+  border-radius: 0px;
+  border-color: blue;
+
+
+}
+
+#nameInput {
+  border-width: 2px;
+  border-radius: 0px;
+  border-color: blue;
+  width: 220px;
+  height: 30px;
+  font-family: arial;
+  font-size: 25px;
+}
+
+#status {
+  margin-left: 20px;
+  color: blue;
+  font-size: 20px;
+}
+
+.HiddenURLButton {
+  display: none;
+}
+
+.bottombar {
+  position: fixed;
+  background-color: aliceblue;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 35px;
+  font-family: arial;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+
+a:visited {
+  color: blue;
+}

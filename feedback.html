@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="description"
+    content="This is the feedback page of the website, you can send feedback to richard in this page.">
+  <meta name="author" content="Richard Liu">
+  <meta name="viewport" content="width=device-width, initial-scale=0.7" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon"
+    href="https://tse2.mm.bing.net/th/id/OIP.JIIlsNXzWbsd-3RYjtJI_gHaHa?w=512&h=512&rs=1&pid=ImgDetMain" />
+  <title>feedback</title>
+</head>
+
+<body>
+  <br>
+  <br>
+  <div class="frame">
+    <a href="index.html"> <button>Home</button></a>
+
+    <h1>Send Feedback</h1>
+  </div>
+  <br>
+  <div class="frame" style="height: 510px;">
+    <h1>Send Feedback</h1>
+    <input id="nameInput" placeholder="Enter your name">
+    <br>
+    <br>
+
+    <textarea
+      placeholder="Enter your feedback here, you can tell me what app that you want me to improve, or you can also use this form to say something that you want to tell me. Before you submit the form, all the things you type in will be save into your localstorage of your browser"
+      id="formContent"></textarea>
+    <br>
+
+    <br>
+    <div style="display:flex;align-items:center">
+      <button id="submitButton">Submit</button>
+      <label id="status"></label>
+
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="richard code form.js"></script>
+    <script src="view source hint.js"></script>
+  </div>
+  <br>
+  <!-- The code beload orignally is google form embeded code, but now I have a cutmoized form that is powered by firebase, so I just do not use it right now.-->
+  <!--
+    <div class="frame"> 
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLScdKRUW44m5XtVbC9BbDWoryIWqhRNBvTxOl3dEJGTcuR1v6A/viewform?usp=dialog"
+        style="width: 70vw"
+        height="500px"
+      >
+      </iframe>
+    </div>
+    -->
+  <br />
+  <br />
+  <br />
+  <footer class="bottombar">
+    <p style="margin-left:15px;">© 2025 Richard Liu</p>
+    <p>RichardCode</p>
+    <p style="margin-right:18px;">Host by GitHub</p>
+  </footer>
+</body>
+
+</html>

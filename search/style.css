@@ -1,0 +1,47 @@
+body {
+    margin: 0 auto;
+}
+
+.searchTitleOfThePage {
+    font-family: arial;
+    font-size: 60px;
+    text-align: center;
+    color: blue
+}
+
+#searchInput {
+    width: 530px;
+    height: 40px;
+    border-width: 2px;
+    border-color: blue;
+    border-radius: 0px;
+    font-size: 27px;
+}
+
+#searchButton {
+    width: 120px;
+    height: 40px;
+    font-size: 27px;
+    color: black;
+}
+
+.searchFormContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.bottombar {
+    position: fixed;
+    background-color: aliceblue;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 35px;
+    font-family: arial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

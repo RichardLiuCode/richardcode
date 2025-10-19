@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: top;
+      background-color: white;
+      font-family: arial;
+      text-align：center;
+    }
+
+    #title {
+      color: blue;
+
+    }
+
+    .titlecontainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 90vh
+    }
+  </style>
+</head>
+
+<body>
+  <div class="titlecontainer">
+    <h1 id="title">Click here to load the app</h1>
+  </div>
+  <div id="container">
+
+  </div>
+  <script>
+    var isClicked = false;
+    document.addEventListener("click", function () {
+      if (isClicked == false) {
+        isClicked = true;
+        document.getElementById("title").style.display = "none";
+        document.body.style = "background-color:skyblue";
+        document.getElementById("container").innerHTML = "<iframe sandbox='allow-scripts allow-same-origin' width='450' height='650' style='border:0px;' src='https://studio.code.org/projects/applab/94GiglcHwB4ebeWxzz5BDQq9CGZ59TsmGKW9uWbFUC8/embed'></iframe>";
+        document.getElementById("container").click();
+      } else {
+        document.getElementById("title").style.display = "none";
+        console.error("The code.org area was already clicked");
+        document.getElementById("container").click();
+      }
+    })
+  </script>
+</body>
+
+</html>
