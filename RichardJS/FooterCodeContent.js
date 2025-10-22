@@ -29,16 +29,7 @@ var footerJS = {
     "innerElements": "null",
     "i": 0
 }
-footerJS.footerElement.style = "position: fixed;background-color: aliceblue;bottom: 0;left: 0;width: 100vw;height: 35px;    font-family: arial;    display: flex;    justify-content: space-between;    align-items: center;    user-select: none;"
-footerJS.footerElement.addEventListener("mouseover", function () {
-    footerJS.footerElement.style.color = "rgb(2, 97, 250)";
-    footerJS.footerElement.style.textDecoration = "underline";
-});
-footerJS.footerElement.addEventListener("mouseout", function () {
-    footerJS.footerElement.style.color = "black";
-    footerJS.footerElement.style.textDecoration = "none";
-});
-
+footerJS.footerElement.style = "position: fixed;background-color: aliceblue;bottom: 0;left: 0;width: 100vw;height: 35px;    font-family: arial;    display: flex;    justify-content: left;;    align-items: center; gap:10px;   user-select: none;cursor:pointer;"
 footerJS.footerElement.addEventListener("click", function () {
     footerJS.innerElements = footerJS.footerSecondElement.querySelectorAll("div,p,hr,br,h1,img,li");
     if (footerJS.footerSecondElement.style.height == "0px") {
@@ -57,7 +48,7 @@ footerJS.footerElement.addEventListener("click", function () {
         }
     }
 })
-footerJS.footerElement.innerHTML = "<p style=\"margin-left: 15px; \">© " + new Date().getFullYear() + " Richard Liu</p><p>RichardCode</p><p style=\"margin-right: 18px; \">" + footerJS.hostByPlatformText() + footerJS.getHostPlatform() + "</p>"
+footerJS.footerElement.innerHTML = "<p style=\"margin-left: 15px; \">© " + new Date().getFullYear() + " Richard Liu</p><p style=\"color:gray;\">|</p><p onmouseover=\"this.style.color = 'rgb(2, 97, 250)';this.style.textDecoration = 'underline';\" onmouseout=\"this.style.color = 'black';this.style.textDecoration = 'none';\" title=\"RichardLiuCode is my GitHub username, my personal website is on https://richardliucode.github.io, click here for more details\" onclick=\"window.open('https://richardliucode.github.io/','_blank','width=1300,height=700,top=10,left=10')\">RichardLiuCode</p><p style=\"color:gray;\">|</p><p style=\"margin-right: 18px;\" >" + footerJS.hostByPlatformText() + footerJS.getHostPlatform() + "</p>"
 document.body.appendChild(footerJS.footerElement)
 /* Add Second Footer Element */
 footerJS.footerSecondElement.style = "transition:1s;font-family:arial;display:revert;background-color:aliceblue;width:100vw;height:0px;position:fixed;bottom:35px;left:0;"
