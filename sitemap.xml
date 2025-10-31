@@ -9,63 +9,98 @@
 
 <url>
   <loc>https://richardliucode.github.io/richardcode/</loc>
-  <lastmod>2025-08-10T10:06:02+00:00</lastmod>
+  <lastmod>2025-10-31T05:52:29+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://richardliucode.github.io/richardcode/GitHub/</loc>
-  <lastmod>2025-08-10T10:06:02+00:00</lastmod>
+  <lastmod>2025-10-31T05:52:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://richardliucode.github.io/richardcode/browserExtensions.html</loc>
+  <lastmod>2025-10-31T05:52:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://richardliucode.github.io/richardcode/pdfIndex.html</loc>
-  <lastmod>2025-08-10T10:06:02+00:00</lastmod>
+  <lastmod>2025-10-31T05:52:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://richardliucode.github.io/richardcode/MrRay.html</loc>
-  <lastmod>2025-08-10T10:06:02+00:00</lastmod>
+  <lastmod>2025-10-31T05:52:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://richardliucode.github.io/richardcode/browserCode.html</loc>
-  <lastmod>2025-08-10T10:06:02+00:00</lastmod>
+  <lastmod>2025-10-31T05:52:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://richardliucode.github.io/richardcode/feedback.html</loc>
-  <lastmod>2025-08-10T10:06:02+00:00</lastmod>
+  <lastmod>2025-10-31T05:52:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://richardliucode.github.io/richardcode/richard.txt</loc>
-  <lastmod>2025-08-10T10:06:02+00:00</lastmod>
+  <lastmod>2025-10-31T05:52:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://richardliucode.github.io/richardcode/hidden/skibidi.txt</loc>
-  <lastmod>2025-08-10T10:06:02+00:00</lastmod>
+  <lastmod>2025-10-31T05:52:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://richardliucode.github.io/richardcode/indexs/sidebarindex.html</loc>
-  <lastmod>2025-08-10T10:06:02+00:00</lastmod>
+  <lastmod>2025-10-31T05:52:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://richardliucode.github.io/weather/</loc>
+  <lastmod>2025-09-14T21:48:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://richardliucode.github.io/calculator/</loc>
+  <lastmod>2025-09-14T19:46:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://richardliucode.github.io/FactorialCalculator/</loc>
+  <lastmod>2025-09-02T01:05:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://richardliucode.github.io/htmleditor/</loc>
+  <lastmod>2025-09-14T02:13:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://richardliucode.github.io/viewsource/</loc>
+  <lastmod>2025-09-14T20:56:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://richardliucode.github.io/richardcode/GitHub/codeProjectContainer.html</loc>
-  <lastmod>2025-08-10T10:06:02+00:00</lastmod>
+  <lastmod>2025-10-31T05:52:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://richardliucode.github.io/richardcode/index.html</loc>
-  <lastmod>2025-08-10T10:06:02+00:00</lastmod>
+  <lastmod>2025-10-31T05:52:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://richardliucode.github.io/richardcode/markdowntohtml.com.html</loc>
-  <lastmod>2025-08-10T10:06:02+00:00</lastmod>
+  <lastmod>2025-10-31T05:52:29+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://richardliucode.github.io/htmleditor/v1.3/</loc>
+  <lastmod>2025-09-14T02:13:54+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
