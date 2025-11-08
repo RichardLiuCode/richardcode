@@ -59,6 +59,6 @@ footerJS.footerIn234.innerHTML = "<ol><li>Richard's personal Wesite: <a href=\"h
 footerJS.footerSecondElement.appendChild(footerJS.footerIn234)
 /* The top Left element inside the footer*/
 footerJS.footerIn6783.style = "display:none;width:660px;height:80px;background-color:aliceblue;position:fixed;left:20px;bottom:105px;";
-footerJS.footerIn6783.innerHTML = "<h3 style=\"Display:flex;justigy-content:left;align-items:center;gap:10px;color:blue;user-select:none;text-align:left;\"><img src=\"https://richardliucode.github.io/richardcode/logo180px.png\" style=\"pointer-events:none;width:25px;border-radius:3px;\" alt=\"Richard's Logo\"> RichardLiuCode</h3><pre style=\"text-align:left\">This website was created by Richard</pre><hr>"
+footerJS.footerIn6783.innerHTML = "<h3 style=\"Display:flex;justigy-content:left;align-items:center;gap:10px;color:blue;user-select:none;text-align:left;\"><img src=\"https://richardliucode.github.io/richardcode/logo180px.png\" style=\"pointer-events:none;width:25px;border-radius:3px;\" alt=\"Richard's Logo\"> RichardLiuCode</h3><span style=\"text-align:left;background-color:yellow;padding:2px;\">This website is for personal use only, do not use for any commercial purpose!</span><hr>"
 footerJS.footerSecondElement.appendChild(footerJS.footerIn6783)
 /* Auto Hide the second footer */
