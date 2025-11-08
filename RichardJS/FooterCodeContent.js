@@ -48,6 +48,7 @@ footerJS.footerElement.addEventListener("click", function () {
         }
     }
 })
+footerJS.footerElement.title = "Click here for more details"
 footerJS.footerElement.innerHTML = "<p style=\"margin-left: 15px; \">© " + new Date().getFullYear() + " Richard Liu</p><p style=\"color:gray;\">|</p><p onmouseover=\"this.style.color = 'rgb(2, 97, 250)';this.style.textDecoration = 'underline';\" onmouseout=\"this.style.color = 'black';this.style.textDecoration = 'none';\" title=\"RichardLiuCode is my GitHub username, my personal website is on https://richardliucode.github.io, click here for more details\" onclick=\"if(confirm('This website will open a new window, click OK to continue.')){window.open('https://richardliucode.github.io/','_blank','width=1300,height=700,top=10,left=10')}\">RichardLiuCode</p><p style=\"color:gray;\">|</p><p style=\"margin-right: 18px;\" >" + footerJS.hostByPlatformText() + footerJS.getHostPlatform() + "</p>"
 document.body.appendChild(footerJS.footerElement)
 /* Add Second Footer Element */
