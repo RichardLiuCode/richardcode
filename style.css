@@ -37,6 +37,7 @@ textarea {
 }
 
 button {
+  cursor: pointer;
   box-shadow: 2px 2px 4px rgb(115, 115, 177);
   border-radius: 0;
   border-color: blue;
