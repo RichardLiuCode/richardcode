@@ -26,7 +26,7 @@ window.onload = function () {
         document.getElementById("githubLink").href = data.html_url
 
     })
-    fetch("https://api.github.com/users/richardliucode/repos")
+    fetch("https://api.github.com/users/richardliucode/repos?per_page=100")
         .then(function (response) {
             return response.json()
         }).then(async function (data) {
