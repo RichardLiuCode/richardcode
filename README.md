@@ -32,11 +32,8 @@ This is a website that talk about My code, it also talk about Mr. Ray chen in co
 
 ## Sample
 
-|
+![website sample](Images/WebsiteDemo.gif)
 
-![website sample](WebsiteDemo.gif)
-
-  |
-|-|
+ 
 
 ### By Richard
