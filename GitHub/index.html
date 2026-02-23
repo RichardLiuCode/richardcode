@@ -15,8 +15,7 @@
 
     </div>
     <div style="top:0;position:fixed;width:100vw;height:40px;background-color:white">
-        <button class="topBtn"
-            onclick="window.location.href=('../index.html')">Home</button>
+        <button class="topBtn" onclick="window.location.href=('../index.html')">Home</button>
         <button class="topBtn" id="shareSite">Share</button>
     </div>
     <div style="width:100vw;height:40px;">
@@ -51,42 +50,8 @@ How to Upload and Honsting a website on github
         <iframe width="700" height="450" src="https://www.youtube.com/embed/4wYoxsP9OGo?rel=0"
             title="How to upload website from your computer to Github" frameborder="0"
             sandbox="allow-scripts allow-same-origin" allow="autoplay; encrypted-media" allowfullscreen>
-
         </iframe>
 
-    </div>
-    <br>
-    <div class="box">
-        <h1 id="topProjectTitle">Top Projects</h1>
-        <ol id="topProjectsList">
-
-            <a href="https://richardliucode.github.io/weather" target="_blank">
-                <li>Weather app</li>
-            </a>
-
-            <a href="https://richardliucode.github.io/calculator" target="_blank">
-                <li>Calculator</li>
-            </a>
-
-            <a href="https://richardliucode.github.io/FactorialCalculator" target="_blank">
-                <li>Factorial Calculator</li>
-            </a>
-
-            <a href="https://richardliucode.github.io/htmleditor" target="_blank">
-                <li>HTML editor</li>
-            </a>
-
-            <a href="https://richardliucode.github.io/viewsource" target="_blank">
-                <li>View page source</li>
-            </a>
-
-        </ol>
-    </div>
-    <br>
-    <div class="box">
-        <div id="ProjectsDisplay">
-            <h1 id="PROJECTSTITLE"></h1>
-        </div>
     </div>
     <br>
     <div class="box" style="display:flex;align-items:top;justify-content:space-between">
@@ -99,19 +64,252 @@ How to Upload and Honsting a website on github
             src="codeProjectContainer.html"></iframe>
 
     </div>
-    <br />
-    <div class="box" style="display:flex;align-items:top;justify-content:space-between">
-        <div style="width:290px;">
-            <h1 style="color:blue;text-align:center">Search Result</h1>
-            <p>This is the Bing search result for my GitHub code</p>
-            <button id="searchBing">Reload Search</button>
-
-        </div>
-        <iframe id="searchEngineResult" src="https://bing.com/search?q=RichardLiuCodeGithub" width="700"
-            height="800"></iframe>
-    </div>
     <br>
+    <div class="box">
+        <h1 id="PROJECTSTITLE"></h1>
+        <input id="searchBar" placeholder="Search Projects" type="search">
+        <div id="ProjectsDisplay">
+            <table id="ProjectsList">
+                <tr>
+                    <th nameColumn>Name</th>
+                    <th>URL</th>
+                </tr>
+                <tr>
+                    <td nameColumn name="projectName">ButtonButton</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/buttonbutton"
+                            target="_blank">https://richardliucode.github.io/buttonbutton</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn name="projectName">Html/CSS/JavaScript editor</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/codeeditor"
+                            target="_blank">https://richardliucode.github.io/codeeditor</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn name="projectName">RSA-OAEP encryption tool</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/RSA-OAEP-Encryption"
+                            target="_blank">https://richardliucode.github.io/RSA-OAEP-Encryption</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn name="projectName">Caesar Cipher</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/caesarcipherapp"
+                            target="_blank">https://richardliucode.github.io/caesarcipherapp</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn name="projectName">JavaScript formatter</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/jsformatter"
+                            target="_blank">https://richardliucode.github.io/jsformatter</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn name="projectName">Hash calculator</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/HashCalculator"
+                            target="_blank">https://richardliucode.github.io/HashCalculator</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn name="projectName">Ball Game</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/ballgame"
+                            target="_blank">https://richardliucode.github.io/ballgame</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn name="projectName">Calculator</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/calculator"
+                            target="_blank">https://richardliucode.github.io/calculator</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Calculator V3.0</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/calculatorV3.0"
+                            target="_blank">https://richardliucode.github.io/calculatorV3.0</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Factoring Calculator</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/factoringcalculator"
+                            target="_blank">https://richardliucode.github.io/factoringcalculator</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Slope Calculator</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/slopecalculator"
+                            target="_blank">https://richardliucode.github.io/slopecalculator</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Character And Irony</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/characterAndIrony"
+                            target="_blank">https://richardliucode.github.io/characterAndIrony</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Ctrl Key List</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/ctrlKeyList"
+                            target="_blank">https://richardliucode.github.io/ctrlKeyList</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Markdown to HTML</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/markdowntohtml"
+                            target="_blank">https://richardliucode.github.io/markdowntohtml</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Trumpet, Baritone, Tuba's Finger Chart</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/TrumpetBaritoneTubaFingerChart"
+                            target="_blank">https://richardliucode.github.io/TrumpetBaritoneTubaFingerChart</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Screen's size inspector</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/getScreenWidth"
+                            target="_blank">https://richardliucode.github.io/getScreenWidth</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>QR Code Generator</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/qrcodegenerator"
+                            target="_blank">https://richardliucode.github.io/qrcodegenerator</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Iframe Tester</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/testiframe"
+                            target="_blank">https://richardliucode.github.io/testiframe</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>List tool</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/list"
+                            target="_blank">https://richardliucode.github.io/list</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Operating System Inspector</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/OSCheck/"
+                            target="_blank">https://richardliucode.github.io/OSCheck/</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Four Function Calculator V2</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/fourFunctionCalculatorV2"
+                            target="_blank">https://richardliucode.github.io/fourFunctionCalculatorV2</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>TEA tutorial</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/TEAtutorial"
+                            target="_blank">https://richardliucode.github.io/TEAtutorial</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Text To Speech</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/texttospeech"
+                            target="_blank">https://richardliucode.github.io/texttospeech</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Calculator V2</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/calculatorV2"
+                            target="_blank">https://richardliucode.github.io/calculatorV2</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Prank sites</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/prank"
+                            target="_blank">https://richardliucode.github.io/prank</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Fake Deledao Blocked Page Generator</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/FakeDeledaoGenerator"
+                            target="_blank">https://richardliucode.github.io/FakeDeledaoGenerator</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Text to image</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/texttoimage"
+                            target="_blank">https://richardliucode.github.io/texttoimage</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Weather website</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/weather"
+                            target="_blank">https://richardliucode.github.io/weather</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Website source-code inspector</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/viewsource"
+                            target="_blank">https://richardliucode.github.io/viewsource</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>HTML Editor</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/htmleditor"
+                            target="_blank">https://richardliucode.github.io/htmleditor</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Dice Roller</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/Dice"
+                            target="_blank">https://richardliucode.github.io/Dice</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Clock</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/clock"
+                            target="_blank">https://richardliucode.github.io/clock</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td nameColumn>Factorial Calculator</td>
+                    <td>
+                        <a href="https://richardliucode.github.io/FactorialCalculator"
+                            target="_blank">https://richardliucode.github.io/FactorialCalculator</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
     <br />
+    <br>
     <br />
     <footer class="bottombar">
         <p style="margin-left:15px;">© 2025 Richard Liu</p>

@@ -28,14 +28,14 @@
 
 <body>
   <div class="titlecontainer">
-    <h1 id="title">Click here to load the app</h1>
+    <h1 id="title">Code.org App Lab</h1>
   </div>
   <div id="container">
 
   </div>
   <script>
     var isClicked = false;
-    document.addEventListener("click", function () {
+    document.addEventListener("DOMContentLoaded", function () {
       if (isClicked == false) {
         isClicked = true;
         document.getElementById("title").style.display = "none";
