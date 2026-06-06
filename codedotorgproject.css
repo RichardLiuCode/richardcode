@@ -1,0 +1,179 @@
+body {
+    font-family: arial;
+    background-image: url("../backgroundimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#titleDisplay {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.box {
+    margin: 0 auto;
+    padding: 20px;
+    width: 1020px;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+.separate {
+    border: none;
+    height: 2px;
+    background-color: lightgray;
+}
+
+#PROJECTSTITLE,
+#topProjectTitle {
+    color: blue;
+    text-align: center;
+}
+
+#noscript {
+    background-color: red;
+    color: white;
+
+}
+
+details summary {
+    list-style: none;
+    cursor: pointer;
+
+}
+
+details summary::-webkit-datails-marker {
+    display: none;
+}
+
+.topBtn {
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 0;
+    border-color: blue;
+    background-color: white;
+}
+
+details:hover {
+    color: gray;
+}
+
+#searchBing {
+    width: 290px;
+    height: 40px;
+    background-color: white;
+    border-radius: arial;
+    border-width: 2px;
+    text-align: center;
+
+}
+
+#searchEngineResult {
+    border: none;
+}
+
+textarea:focus {
+    outline: none;
+
+}
+
+textarea {
+    padding: 10px;
+    font-size: 20px;
+    font-family: arial;
+}
+
+
+.bottombar {
+    position: fixed;
+    background-color: aliceblue;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 35px;
+    font-family: arial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#topProjectsList li {
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+
+#ProjectsDisplay {
+    height: calc(100vh - 270px);
+    width: 1020px;
+    overflow-y: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(6, 117, 207);
+}
+
+#ProjectsDisplay::-webkit-scrollbar {
+    background-color: rgb(88, 164, 226);
+    width: 12px;
+}
+
+#ProjectsDisplay::-webkit-scrollbar-thumb {
+    background-color: rgb(22, 84, 177);
+}
+
+#ProjectsList {
+    border-collapse: collapse;
+    border: none;
+    width: 100%;
+}
+
+#ProjectsList tr,
+#ProjectsList td,
+#ProjectsList th {
+    border-collapse: collapse;
+    border-width: 1px;
+    border-color: rgb(6, 117, 207);
+    border-style: solid;
+    padding: 10px;
+}
+
+#ProjectsList th {
+    color: blue;
+    font-family: arial;
+}
+
+#ProjectsList a {
+    color: blue;
+}
+
+#ProjectsList a:before {
+    content: attr(href);
+}
+
+#ProjectsList [nameColumn] {
+    width: calc(50% - 10px);
+}
+
+#searchBar {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    font-size: 16px;
+    text-indent: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(42, 111, 201);
+    border-radius: 5px;
+    font-family: arial;
+}
+
+#searchBar:focus {
+    outline: none;
+}
