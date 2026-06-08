@@ -15,12 +15,12 @@ document.getElementById("showSideBar").addEventListener("click", function () {
   let sideBarElements = document.getElementById("sideBar").querySelectorAll("button,hr,div,p,iframe");
   if (isShowSideBar == 0) {
     isShowSideBar = 1;
-    document.getElementById("sideBar").style.width = "250px"
+    document.getElementById("sideBar").style.width = "250px";
 
     setTimeout(function () {
       for (let i = 0; i < sideBarElements.length; i = i + 1) {
         sideBarElements[i].style.display = "revert";
-        document.getElementById("sideBar").style.width = "250px"
+        document.getElementById("sideBar").style.width = "250px";
       }
     }, 1100);
   } else {
@@ -40,4 +40,4 @@ for (let i = 0; i < sideBarElements.length; i = i + 1) {
 
 setTimeout(function () {
   document.getElementById("sideBar").style.display = "revert";
-}, 1200)
+}, 1200);
