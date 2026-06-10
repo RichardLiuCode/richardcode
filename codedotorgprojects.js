@@ -18,3 +18,24 @@ document.getElementById("searchBar").addEventListener("input", function () {
     }
 
 });
+document.getElementById("closeProjectPreviewBtn").addEventListener("click", function () {
+    document.getElementById("projectPreviewPopup").style.transform = "scale(0)";
+    document.getElementById("projectPreviewFrame").src = "";
+});
+window.onload = function () {
+    document.getElementById("projectPreviewPopup").style.display = "block";
+    const allProjectsLink = document.getElementById("All-Projects").querySelectorAll("a");
+    for (let i = 0; i < allProjectsLink.length; i++) {
+        const project = allProjectsLink[i];
+        if (project.getAttribute("href")) {
+            const projectURL = project.getAttribute("href").toString();
+            if (projectURL.includes("/applab/")) {
+                project.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    document.getElementById("projectPreviewFrame").src = `${projectURL}/embed`;
+                    document.getElementById("projectPreviewPopup").style.transform = "scale(1)";
+                });
+            }
+        }
+    }
+};

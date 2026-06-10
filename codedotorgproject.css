@@ -177,3 +177,32 @@ textarea {
 #searchBar:focus {
     outline: none;
 }
+
+#projectPreviewPopup {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    width: 400px;
+    height: fit-content;
+    padding-bottom: 10px;
+    background-color: #5C6971;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px rgba(186, 186, 186, 0.7);
+    transition: 0.5s;
+    transform: scale(0);
+}
+
+#projectPreviewFrame {
+    border: none;
+    border-radius: 20px;
+}
+
+#closeProjectPreviewBtn {
+    width: calc(100% - 20px);
+    height: 30px;
+    border-radius: 5px;
+    border-color: gray;
+    border-style: solid;
+    background-color: white;
+}
