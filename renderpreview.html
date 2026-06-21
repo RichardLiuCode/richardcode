@@ -2,30 +2,37 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="style.css">
-    <title>Render Projects</title>
-    <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Render Projects</title>
+  <link rel="icon" href="logo.png">
 </head>
 
 <body>
-    <div class="bar">
-        <button onclick="window.location.href='index.html'">Home</button>
-    </div>
+  <div class="bar">
+    <button onclick="window.location.href='index.html'">Home</button>
+    <nav>
+      <a href="./code.orgProjects.html"><button>Code.org Projects</button></a>
+      <a href="./GitHub"><button>GitHub Projects</button></a>
+      <a href="https://codepen.io/richardliucode"><button>CodePen Projects</button></a>
+      <a href="./renderpreview.html"><button>Render Projects</button></a>
+      <a href="./browserExtensions.html"><button>Browser Extensions Projects</button></a>
+      <a href="./jspackages.html"><button>NPM Packages Projects</button></a>
+    </nav>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="frame">
+    <iframe style="border-style:solid;border-width:2px;border-color:blue;width:100%;height:700px;" src="https://richardliucode.onrender.com"></iframe>
     <br>
     <br>
-    <br>
-    <div class="frame">
-        <iframe style="border-style:solid;border-width:2px;border-color:blue;width:100%;height:700px;"
-            src="https://richardliucode.onrender.com"></iframe>
-        <br>
-        <br>
-        <button onclick="window.open('https://richardliucode.onrender.com','_blank')">Open in new tab</button>
-    </div>
-    <footer class="bottombar">
-        <p style="margin-left:15px;">© 2025 Richard Liu</p>
-        <p>RichardCode</p>
-        <p style="margin-right:18px;">Host by GitHub</p>
-    </footer>
+    <button onclick="window.open('https://richardliucode.onrender.com','_blank')">Open in new tab</button>
+  </div>
+  <footer class="bottombar">
+    <p style="margin-left:15px;">© 2025 Richard Liu</p>
+    <p>RichardCode</p>
+    <p style="margin-right:18px;">Host by GitHub</p>
+  </footer>
 </body>
 
 </html>
