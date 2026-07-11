@@ -40,10 +40,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .firstFrameFlexBox img {
-  width: 300px;
+  width: 370px;
   height: 300px;
   background-color: black;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 @media (max-width:400px) {
