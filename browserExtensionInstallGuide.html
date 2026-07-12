@@ -2,136 +2,135 @@
 <html lang="en">
 
 <head>
-    <title>How to install an unpacked browser extension</title>
-    <link rel="icon" href="logo.png">
-    <link rel="apple-touch-icon" href="logo180px.png">
-    <style>
-        body {
-            font-family: arial;
-            margin: 0px;
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            overflow-x: hidden;
-        }
+  <title>How to install an unpacked browser extension</title>
+  <link rel="icon" href="./asset/favicon.png">
+  <link rel="apple-touch-icon" href="./asset/favicon.png">
+  <style>
+    body {
+      font-family: arial;
+      margin: 0px;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      overflow-x: hidden;
+    }
 
-        .main {
-            background-color: white;
-            width: 650px;
-            padding-top: 10px;
-            padding-left: 0px;
-        }
+    .main {
+      background-color: white;
+      width: 650px;
+      padding-top: 10px;
+      padding-left: 0px;
+    }
 
-        .main code {
-            background-color: #818b981f;
-            padding-top: 1px;
-            padding-bottom: 1px;
-            padding-left: 4px;
-            padding-right: 4px;
-            border-radius: 3px;
+    .main code {
+      background-color: #818b981f;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      padding-left: 4px;
+      padding-right: 4px;
+      border-radius: 3px;
 
-        }
+    }
 
-        .main li {
-            margin-top: 6px;
-        }
+    .main li {
+      margin-top: 6px;
+    }
 
-        .popupHint {
-            background-color: rgb(250, 250, 178);
-            padding: 10px;
-            border-radius: 5px;
-        }
+    .popupHint {
+      background-color: rgb(250, 250, 178);
+      padding: 10px;
+      border-radius: 5px;
+    }
 
-        #moreLinebreak {
-            display: none
-        }
-    </style>
+    #moreLinebreak {
+      display: none
+    }
+  </style>
 </head>
 
 <body>
-    <div class="main" id="main">
+  <div class="main" id="main">
+    <ol>
+      <li>
+        <h2>Download the extensions</h2>
+        <ul>
+          <li>When you open a github repoistiories of a browser extension, on the top of the repoistiories,
+            click the
+            green
+            <strong>Code</strong> button and then select
+            <strong>Download as ZIP.</strong>
+          </li>
+          <li>After you downloaded the zip files, extract the file on your computer.</li>
+        </ul>
+      </li>
+      <li>
+        <h2>Go to the extensions setting page.</h2>
+        <ul>
+          <li>Open your browser and go to the extensions setting page.</li>
+          <li>For Google Chrome go to
+            <code>chrome://extensions</code>
+          </li>
+          <li>For Microsoft Edge go to <code>edge://extensions</code> </li>
+        </ul>
+      </li>
+      <li>
+        <h2>Turn on "Developer mode".</h2>
+        <ul>
+          <li>There has a switch on the browser and it is called <strong>Developer mode</strong>, enable it to
+            turn on developer mode.</li>
+        </ul>
+      </li>
+      <li>
+        <h2>Upload unpacked folder</h2>
         <ol>
-            <li>
-                <h2>Download the extensions</h2>
-                <ul>
-                    <li>When you open a github repoistiories of a browser extension, on the top of the repoistiories,
-                        click the
-                        green
-                        <strong>Code</strong> button and then select
-                        <strong>Download as ZIP.</strong>
-                    </li>
-                    <li>After you downloaded the zip files, extract the file on your computer.</li>
-                </ul>
-            </li>
-            <li>
-                <h2>Go to the extensions setting page.</h2>
-                <ul>
-                    <li>Open your browser and go to the extensions setting page.</li>
-                    <li>For Google Chrome go to
-                        <code>chrome://extensions</code>
-                    </li>
-                    <li>For Microsoft Edge go to <code>edge://extensions</code> </li>
-                </ul>
-            </li>
-            <li>
-                <h2>Turn on "Developer mode".</h2>
-                <ul>
-                    <li>There has a switch on the browser and it is called <strong>Developer mode</strong>, enable it to
-                        turn on developer mode.</li>
-                </ul>
-            </li>
-            <li>
-                <h2>Upload unpacked folder</h2>
-                <ol>
-                    <li>Click "Load unpacked" and select the folders where you extract the files.</li>
-                </ol>
-            </li>
-            <li>
-                <h2>Enable the extensions.</h2>
-                <ul>
-                    <li>Turn on your extensions on your browser's extensions setting page</li>
-                </ul>
-            </li>
-            <li>
-                <h2>Done</h2>
-                <ul>
-                    <li>Go to the search bar of the browser and you will see the extensions.</li>
-                </ul>
-            </li>
+          <li>Click "Load unpacked" and select the folders where you extract the files.</li>
         </ol>
-        <div class="popupHint" id="popupHint">
-            <br>
-            <img src="Images/EdgeUnpackedExtensionWarningPopup.png"
-                alt="Edge Unpacked Extension Warning Popup" style="width:100%;height:200px;object-fit: contain;">
-            <br>
-            <br>
-            For sercurity reason, browser will remind you with a popup message that said you turned on
-            the developer mode
-            because you installed a third party extensions, if you make sure the extensions is from trused sources or
-            you
-            checked the code that it is safe to use, then you can ignore the message.
-        </div>
-        <div id="moreLinebreak">
-            <br>
-            <br>
-            <br>
-            <br>
-        </div>
+      </li>
+      <li>
+        <h2>Enable the extensions.</h2>
+        <ul>
+          <li>Turn on your extensions on your browser's extensions setting page</li>
+        </ul>
+      </li>
+      <li>
+        <h2>Done</h2>
+        <ul>
+          <li>Go to the search bar of the browser and you will see the extensions.</li>
+        </ul>
+      </li>
+    </ol>
+    <div class="popupHint" id="popupHint">
+      <br>
+      <img src="Images/EdgeUnpackedExtensionWarningPopup.png" alt="Edge Unpacked Extension Warning Popup" style="width:100%;height:200px;object-fit: contain;">
+      <br>
+      <br>
+      For sercurity reason, browser will remind you with a popup message that said you turned on
+      the developer mode
+      because you installed a third party extensions, if you make sure the extensions is from trused sources or
+      you
+      checked the code that it is safe to use, then you can ignore the message.
     </div>
-    <script>
-        if (window.opener) {
-            const newStyle = document.createElement("style");
-            newStyle.innerText = "body{overflow-y: hidden;background-color:white}";
-            document.body.appendChild(newStyle);
-        } else {
-            const footer = document.createElement("script");
-            footer.src = "https://richardliucode.github.io/richardcode/RichardJS/footer.js";
-            document.body.appendChild(footer);
-            document.getElementById("moreLinebreak").style.display = "revert"
-        }
-    </script>
+    <div id="moreLinebreak">
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+  </div>
+  <script>
+    if (window.opener) {
+      const newStyle = document.createElement("style");
+      newStyle.innerText = "body{overflow-y: hidden;background-color:white}";
+      document.body.appendChild(newStyle);
+    } else {
+      const footer = document.createElement("script");
+      footer.src = "https://richardliucode.github.io/richardcode/RichardJS/footer.js";
+      document.body.appendChild(footer);
+      document.getElementById("moreLinebreak").style.display = "revert"
+    }
+  </script>
 </body>
 
 </html>
