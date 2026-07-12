@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /DOC/
+Disallow: /RichardJS/
+Disallow: /asset/
+Disallow: /Images/
