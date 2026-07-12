@@ -3,3 +3,12 @@ Disallow: /DOC/
 Disallow: /RichardJS/
 Disallow: /asset/
 Disallow: /Images/
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Allow: /index.html
