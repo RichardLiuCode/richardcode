@@ -122,14 +122,9 @@ textarea:focus {
   outline: 0px;
 }
 
-#showSideBar {
-  width: 25px;
-  border: none;
-  box-shadow: none;
-}
-
-#showSideBar:focus {
-  outline: none;
+.exploreButton {
+  width: 200px;
+  height: 30px;
 }
 
 .side-bar {
