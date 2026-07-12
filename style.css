@@ -123,8 +123,76 @@ textarea:focus {
 }
 
 .exploreButton {
+  position: relative;
   width: 200px;
   height: 30px;
+  background: #037cb4;
+  font-family: arial;
+  font-size: 16px;
+  color: white;
+  z-index: 1;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 30px;
+  border-color: rgb(1, 62, 141);
+  box-shadow: inset 0px 0px 5px rgb(33, 77, 134);
+}
+
+.exploreButton:hover {
+  background: #037cb4;
+}
+
+.exploreButton:before {
+  content: "";
+  width: 200px;
+  height: 60px;
+  background: rgba(217, 236, 253, 0.233);
+  z-index: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(13px) rotateZ(45deg);
+}
+
+.exploreButton:after {
+  content: "";
+  width: 200px;
+  height: 60px;
+  background: rgba(217, 236, 253, 0.233);
+  z-index: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(119px, 40px) rotateZ(-45deg);
+}
+
+.exploreButton:hover {
+  transition: 1s;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: white;
+  box-shadow: none;
+  text-indent: -120px;
+}
+
+.exploreButton:hover:before {
+  content: "";
+  transition: 0.5s;
+  background: white;
+  transform: translate(155px) rotateZ(45deg);
+}
+
+.exploreButton:hover:after {
+  transition: 0.5s;
+  content: "";
+  background: white;
+  transform: translate(121px, 0px) rotateZ(-45deg);
+}
+
+.exploreButton:active {
+  transition: 0.1s;
+  text-indent: 110px;
 }
 
 .side-bar {
