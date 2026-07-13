@@ -8,12 +8,14 @@
   <link rel="icon" href="./asset/favicon.png">
   <link rel="apple-touch-icon" href="./asset/favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=0.7" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'sha256-vvt4KWwuNr51XfE5m+hzeNEGhiOfZzG97ccfqGsPwvE='; img-src 'self'; media-src 'self';">
+
   <script defer src="./codedotorgprojects.js"></script>
 </head>
 
 <body>
   <div class="bar" style="z-index:4">
-    <button onclick="window.location.href='index.html'">Home</button>
+    <button id="HomeBtn">Home</button>
     <nav>
       <a href="./code.orgProjects.html"><button>Code.org Projects</button></a>
       <a href="./GitHub"><button>GitHub Projects</button></a>

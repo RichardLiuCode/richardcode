@@ -39,3 +39,6 @@ window.onload = function () {
         }
     }
 };
+document.getElementById("HomeBtn").addEventListener("click", function () {
+    window.location.href = "index.html";
+});
