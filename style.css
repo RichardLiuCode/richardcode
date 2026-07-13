@@ -10,7 +10,7 @@ body {
 
 body::-webkit-scrollbar {
   appearance: none;
-  width: 15;
+  width: 15px;
   background: linear-gradient(to bottom, white, aliceblue);
 }
 
