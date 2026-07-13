@@ -101,6 +101,7 @@ button:hover {
   position: fixed;
   width: 100vw;
   z-index: 10;
+  box-shadow: 0px 0px 3px 3px lightgray;
 }
 
 .bar nav {
@@ -110,12 +111,13 @@ button:hover {
   display: flex;
   justify-content: right;
   align-items: center;
-  gap: 0px;
+  gap: 5px;
 }
 
-.bar nav button {
-  border-bottom-width: 1px;
-  border-top-width: 1px;
+.bar button {
+  border-width: 1px;
+  box-shadow: none;
+  border-radius: 10px;
 }
 
 input:focus,
@@ -168,27 +170,29 @@ textarea:focus {
   transform: translate(119px, 40px) rotateZ(-45deg);
 }
 
-.exploreButton:hover {
-  transition: 1s;
-  border-width: 1px;
-  border-radius: 3px;
-  border-color: white;
-  box-shadow: none;
-  text-indent: -120px;
-}
+@media(hover:hover) {
+  .exploreButton:hover {
+    transition: 1s;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: white;
+    box-shadow: none;
+    text-indent: -120px;
+  }
 
-.exploreButton:hover:before {
-  content: "";
-  transition: 0.5s;
-  background: white;
-  transform: translate(155px) rotateZ(45deg);
-}
+  .exploreButton:hover:before {
+    content: "";
+    transition: 0.5s;
+    background: white;
+    transform: translate(155px) rotateZ(45deg);
+  }
 
-.exploreButton:hover:after {
-  transition: 0.5s;
-  content: "";
-  background: white;
-  transform: translate(121px, 0px) rotateZ(-45deg);
+  .exploreButton:hover:after {
+    transition: 0.5s;
+    content: "";
+    background: white;
+    transform: translate(121px, 0px) rotateZ(-45deg);
+  }
 }
 
 .exploreButton:active {
