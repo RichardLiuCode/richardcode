@@ -8,35 +8,24 @@ body {
   overflow-x: hidden;
 }
 
-@media (hover:hover) {
-  body::-webkit-scrollbar {
-    appearance: none;
-    width: 15px;
-    background: linear-gradient(to bottom, white, aliceblue);
-  }
-
-  body::-webkit-scrollbar-track {
-    background-color: #034baafa;
-  }
-
-  body::-webkit-scrollbar-thumb {
-    cursor: pointer;
-    appearance: none;
-    width: 15px;
-    border-radius: 10px;
-    background-color: #034baafa;
-  }
-
-  body::-webkit-scrollbar-thumb:hover {
-    border-style: dashed;
-    border-color: white;
-    border-width: 1px;
-  }
-
-  body::-webkit-scrollbar-thumb:active {
-    background-color: rgb(202, 223, 253);
-  }
+body::-webkit-scrollbar {
+  appearance: none;
+  width: 15px;
+  background: linear-gradient(to bottom, white, aliceblue);
 }
+
+body::-webkit-scrollbar-track {
+  background-color: #034baafa;
+}
+
+body::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  appearance: none;
+  width: 15px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, white, aliceblue);
+}
+
 
 .frame {
   font-family: Arial;
