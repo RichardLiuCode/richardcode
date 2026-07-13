@@ -13,3 +13,6 @@ Disallow: /
 User-agent: ChatGPT-User
 Allow: /index.html
 Disallow: /
+
+User-agent: Google-Extended
+Disallow: /F
