@@ -101,6 +101,7 @@ button:hover {
   align-items: center;
   position: fixed;
   width: 100vw;
+  z-index: 10;
 }
 
 .bar nav {
