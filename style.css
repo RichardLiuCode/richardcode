@@ -110,11 +110,12 @@ button:hover {
   display: flex;
   justify-content: right;
   align-items: center;
-  gap: 10px;
+  gap: 0px;
 }
 
-.bar nav button:hover {
-  transform: scale(1.05) translate(0px, 2px)
+.bar nav button {
+  border-bottom-width: 1px;
+  border-top-width: 1px;
 }
 
 input:focus,
