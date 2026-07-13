@@ -11,14 +11,23 @@ body {
 body::-webkit-scrollbar {
   appearance: none;
   width: 15;
-  background: linear-gradient(to bottom, white, aliceblue)
+  background: linear-gradient(to bottom, white, aliceblue);
+  opacity: 0;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: rgb(95, 152, 216);
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  box-shadow: inset 0px 0px 5px rgb(0, 44, 139);
 }
 
 body::-webkit-scrollbar-thumb {
   appearance: none;
   width: 15px;
   border-radius: 10px;
-  background-color: #0051B8;
+
+  background-color: #206aca;
 }
 
 
