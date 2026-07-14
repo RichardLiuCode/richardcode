@@ -228,6 +228,40 @@ textarea:focus {
   text-indent: 110px;
 }
 
+.viewProjectButton {
+  position: relative;
+  width: 200px;
+  height: 30px;
+  background: #037cb4;
+  font-family: arial;
+  font-size: 16px;
+  color: white;
+  z-index: 0;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 30px;
+  border-color: rgb(1, 62, 141);
+  box-shadow: inset 0px 0px 5px rgb(33, 77, 134);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.viewProjectButton:hover {
+  background: #037cb4;
+}
+
+.viewProjectButton img {
+  margin-left: -5px;
+  margin-top: 1px;
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+}
+
 .side-bar {
   position: fixed;
   bottom: 0;
