@@ -9,12 +9,20 @@ Disallow: /
 User-agent: OAI-SearchBot
 Disallow: /
 
-User-agent: ChatGPT-User
-Allow: /index.html
-Disallow: /
-
 User-agent: Google-Extended
 Disallow: /
 
 User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Grok
 Disallow: /
