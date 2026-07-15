@@ -3,28 +3,26 @@
 
 <head>
   <title>404 Page Not Found!</title>
-  <link rel="icon" href="asset/favicon.png">
-  <style>
-    html,
-    body {
-      margin: 0px;
-      width: 100%;
-      height: 100%;
-    }
-
-    iframe {
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-  </style>
+  <link rel="stylesheet" href="./404.css">
+  <meta name="robots" content="noindex">
+  <meta name="Content-Security-Policy" content="default-src 'self' image-src 'self' script-src 'self' img-src 'self' font-src 'none'">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
 <body>
-  <iframe src="https://richardliucode.github.io/404.html"></iframe>
+  <div class="box">
+    <div class="titleContainer">
+      <img src="./asset/sadIcon.png">
+      <h1>404 Page Not Found!</h1>
+    </div>
+    <hr>
+    <div class="content">
+
+      <p>The page you are looking does not exist!</p>
+      <p>Seems like you get lost, the main website is <a href="https://richardliucode.github.io/richardcode"></a>.</p>
+      <p>If you are looking for a specific app, usually the URL format is <span class="pre">https://richardliucode.github.io&ltApp Name&gt</span></p>
+    </div>
+  </div>
 </body>
 
 </html>

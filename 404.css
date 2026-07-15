@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-family: arial;
+    background-color: rgb(228, 236, 239);
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(0px, 20px)
+    }
+
+    10% {
+        transform: translate(10px, 20px)
+    }
+
+    15% {
+        transform: translate(0px, 20px)
+    }
+
+    20% {
+        transform: translate(-10px, 20px)
+    }
+
+    25% {
+        transform: translate(0px, 20px)
+    }
+
+    30% {
+        transform: translate(5px, 20px)
+    }
+
+    35% {
+        transform: translate(0px, 20px)
+    }
+
+    40% {
+        transform: translate(-5px, 20px)
+    }
+
+    45% {
+        transform: translate(0px, 20px)
+    }
+
+    100% {
+        transform: translate(0px, 20px)
+    }
+
+}
+
+.box {
+    margin: 0 auto;
+    width: 1000px;
+    height: fit-content;
+    background-color: rgb(215, 236, 248);
+    transform: translate(0, 20px);
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 10px;
+    animation-name: shake;
+    animation-duration: 1s;
+    box-shadow: 0 0 5px 5px rgb(167, 179, 184);
+}
+
+.box .titleContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.box .titleContainer h1 {
+    font-size: 80px;
+    font-family: monospace;
+    color: rgb(122, 166, 216);
+}
+
+.box .titleContainer img {
+    width: 85px;
+    height: 85px;
+}
+
+.box a {
+    color: blue;
+}
+
+.box a::after {
+    content: attr(href)
+}
+
+.box hr {
+    border: none;
+    height: 2px;
+    background-color: rgb(122, 166, 216);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box .content {
+    margin-top: 10px;
+    color: rgb(41, 98, 163);
+    padding-bottom: 10px;
+}
+
+.box p .pre {
+    background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 2px;
+    font-family: monospace;
+}
+
+@media(max-width:500px) {
+    .box {
+        width: 450px;
+    }
+
+    .box .titleContainer {
+        gap: 5px;
+    }
+
+    .box .titleContainer h1 {
+        font-size: 35px;
+        font-family: monospace;
+        color: rgb(122, 166, 216);
+    }
+
+    .box .titleContainer img {
+        width: 40px;
+        height: 40px;
+    }
+}
