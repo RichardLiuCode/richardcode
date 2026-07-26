@@ -18,7 +18,7 @@ var footerJS = {
     },
     "hostByPlatformText": function () {
         if (footerJS.getHostPlatform() != "") {
-            return "Website hosted on"
+            return "Website hosted on "
         } else {
             return "HTML / CSS / JS"
         }
